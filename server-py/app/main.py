@@ -5,7 +5,7 @@ load_dotenv()
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routers import agent, chat, graph, rag
+from app.routers import agent, chat, graph, products, rag
 
 app = FastAPI(title="极速购 AI 客服系统")
 
@@ -20,6 +20,7 @@ app.include_router(chat.router, prefix="/api/chat")
 app.include_router(agent.router, prefix="/api/agent")
 app.include_router(rag.router, prefix="/api/rag")
 app.include_router(graph.router, prefix="/api/graph")
+app.include_router(products.router, prefix="/api")
 
 
 @app.get("/")

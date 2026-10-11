@@ -12,5 +12,5 @@ PG_DATABASE = os.getenv("PG_DATABASE", "jisu_ai")
 
 # psycopg3 连接串，供 langchain_postgres PGVector 使用
 PG_CONNECTION_STRING = (
-    f"postgresql+psycopg://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DATABASE}"
+    f"postgresql+psycopg://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DATABASE}?connect_timeout=3"
 )

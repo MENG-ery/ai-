@@ -1,0 +1,123 @@
+/* ─── 海尔官网「售后服务与支持」风格主题 ─────────────────────── */
+:root {
+  --haier-primary:    #0c5ca8;   /* 品牌主色（深蓝） */
+  --haier-primary-d:  #005aaa;   /* 辅助深蓝 */
+  --haier-blue-light: #45a0de;   /* 亮蓝 */
+  --haier-blue-tint:  #cfe4ff;   /* 轻蓝底 */
+  --haier-red:        #d30000;   /* 警示红 */
+  --haier-orange:     #fa6400;   /* 强调橙 */
+  --haier-amber:      #f7ab48;   /* 琥珀橙 */
+  --haier-text:       #111;
+  --haier-text-sub:   #444;
+  --haier-text-weak:  #888;
+  --haier-text-faint: #aaa;
+  --haier-border:     #eee;
+  --haier-border-2:   #e3e3e3;
+  --haier-bg:         #f0f1f4;   /* 区块底色 */
+  --haier-bg-card:    #fff;
+  --haier-shadow:     0 2px 6px rgba(153, 153, 153, 0.18);
+  --haier-shadow-hover: 0 6px 16px rgba(153, 153, 153, 0.3);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #app { height: 100%; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB",
+               "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: var(--haier-text);
+  background: var(--haier-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 区块标题：居中 + 上方蓝色短横线（海尔风格） */
+.haier-section-title {
+  position: relative;
+  text-align: center;
+  padding-top: 14px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--haier-text);
+}
+.haier-section-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 34px;
+  height: 5px;
+  background: var(--haier-primary);
+  border-radius: 2px;
+}
+
+/* 面包屑 */
+.haier-crumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 20px;
+  height: 44px;
+  font-size: 12px;
+  color: var(--haier-text-sub);
+  background: var(--haier-bg);
+}
+.haier-crumbs a, .haier-crumbs span {
+  color: var(--haier-text-sub);
+  text-decoration: none;
+}
+.haier-crumbs a:hover { color: var(--haier-primary); }
+.haier-crumbs .sep { color: var(--haier-text-faint); }
+.haier-crumbs .cur { color: var(--haier-primary); }
+
+/* 胶囊按钮（白底蓝描边，海尔 jumpBtn/queryBtn 风格） */
+.haier-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  height: 30px;
+  border: 1px solid var(--haier-primary);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--haier-primary);
+  font-size: 12px;
+  cursor: pointer;
+  transition: box-shadow .2s;
+}
+.haier-pill-btn:hover { box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2); }
+
+/* 实心主按钮（海尔 bluebtn 风格） */
+.haier-solid-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 22px;
+  height: 34px;
+  border: none;
+  border-radius: 6px;
+  background: var(--haier-primary);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background .2s, box-shadow .2s;
+}
+.haier-solid-btn:hover:not(:disabled) { background: var(--haier-primary-d); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); }
+.haier-solid-btn:disabled { background: var(--haier-blue-tint); color: #fff; cursor: not-allowed; }
+
+/* 快捷词胶囊（浅蓝底 + 蓝字） */
+.haier-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border: 1px solid var(--haier-blue-tint);
+  border-radius: 999px;
+  background: var(--haier-blue-tint);
+  color: var(--haier-primary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background .2s, color .2s, box-shadow .2s;
+}
+.haier-chip:hover { background: #fff; color: var(--haier-primary); box-shadow: var(--haier-shadow); }

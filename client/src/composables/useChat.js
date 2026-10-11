@@ -7,6 +7,9 @@ import { ref, nextTick } from 'vue';
 
 const API_BASE = 'http://localhost:3000/api';
 
+const nowTime = () =>
+  new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+
 export function useChat() {
   const messages = ref([]);       // 完整消息历史 [{ role, content }]
   const streaming = ref(false);   // 是否正在流式输出
@@ -18,7 +21,7 @@ export function useChat() {
     if (!userInput.trim() || streaming.value) return;
 
     error.value = '';
-    messages.value.push({ role: 'user', content: userInput });
+    messages.value.push({ role: 'user', content: userInput, time: nowTime() });
     scrollCallback?.();
 
     streaming.value = true;
@@ -72,7 +75,7 @@ export function useChat() {
 
       // 流结束，将完整回复存入历史
       if (streamText.value) {
-        messages.value.push({ role: 'assistant', content: streamText.value });
+        messages.value.push({ role: 'assistant', content: streamText.value, time: nowTime() });
       }
     } catch (err) {
       error.value = `请求失败：${err.message}`;
