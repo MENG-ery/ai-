@@ -37,7 +37,7 @@ function persist() {
 // 从后端 health 获取默认模型名
 async function initDefaultModel() {
   try {
-    const res = await fetch('http://localhost:3000/api/chat/health');
+    const res = await fetch('/api/chat/health');
     const data = await res.json();
     defaultModel.value = data.model_display || data.model || '';
   } catch (e) {

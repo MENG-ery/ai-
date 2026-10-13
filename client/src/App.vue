@@ -5,9 +5,9 @@
     <header class="topbar">
       <div class="topbar-inner">
         <router-link to="/" class="brand">
-          <span class="brand-logo">购</span>
-          <span class="brand-name">极速购<span class="brand-badge">AI 客服</span></span>
+          <img class="brand-logo-img" src="/brand-fumanhai.png" alt="服满海" />
         </router-link>
+        <span class="brand-badge">AI 客服</span>
         <div class="topbar-right">
           <span class="online-chip"><i class="dot-online"></i>7×24 在线</span>
           <span class="phone">客服热线 95179</span>
@@ -52,7 +52,7 @@
             </div>
           </div>
           <router-link to="/settings" class="foot-link">设置</router-link>
-          <p class="foot-title">极速购 AI 客服</p>
+          <p class="foot-title">服满海 AI 客服</p>
           <p class="foot-desc">家生活全场景服务，定制美好生活</p>
         </div>
       </nav>
@@ -63,7 +63,7 @@
     </div>
 
     <footer class="footer">
-      <span>© 2026 极速购 版权所有 | 家生活全场景服务，定制美好生活</span>
+      <span>© 2026 服满海 版权所有 | 家生活全场景服务，定制美好生活</span>
     </footer>
   </div>
 </template>
@@ -77,7 +77,7 @@ const showModelMenu = ref(false);
 
 const sections = [
   { path: '/',         icon: '问', title: '智能客服', desc: '对话咨询' },
-  { path: '/rag',      icon: '知', title: '知识库', desc: '海信产品' },
+  { path: '/rag',      icon: '知', title: '知识库', desc: '海尔产品' },
   { path: '/products', icon: '品', title: '产品中心', desc: '全品类家电' },
 ];
 </script>
@@ -113,31 +113,15 @@ const sections = [
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
 }
-.brand-logo {
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #2f6bff, #1e52e0);
-  color: #fff;
-  font-size: 17px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 6px 18px -6px rgba(47, 107, 255, 0.6);
-}
-.brand-name {
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--haier-text);
-  letter-spacing: 1px;
+.brand-logo-img {
+  height: 34px;
+  width: auto;
+  display: block;
 }
 .brand-badge {
   display: inline-block;
-  margin-left: 8px;
   padding: 2px 10px;
   border-radius: 999px;
   background: var(--haier-primary-tint);
@@ -145,7 +129,6 @@ const sections = [
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 1px;
-  vertical-align: 2px;
 }
 .topbar-right {
   margin-left: auto;

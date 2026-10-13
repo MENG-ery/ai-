@@ -1,11 +1,11 @@
-<!-- client/src/views/RagView.vue（现代 AI 客服风格：页头 + 商品分类 + 海信商品库 + 聊天问答） -->
+<!-- client/src/views/RagView.vue（现代 AI 客服风格：页头 + 商品分类 + 海尔商品库 + 聊天问答） -->
 <template>
   <div class="rag-page">
     <!-- 页头 -->
     <div class="page-head">
       <div class="page-head-inner">
-        <h1>知识库 · 海信官方商城商品</h1>
-        <p class="head-sub">共 {{ products.length }} 款商品（名称 / 型号 / 价格，来源海信官方商城），可搜索筛选并咨询智能客服</p>
+        <h1>知识库 · 海尔官方商城商品</h1>
+        <p class="head-sub">共 {{ products.length }} 款商品（名称 / 型号 / 价格，来源海尔官方商城），可搜索筛选并咨询智能客服</p>
       </div>
     </div>
 
@@ -67,7 +67,7 @@
           <div class="header-left">
             <span class="avatar">购</span>
             <div class="header-info">
-              <span class="agent-name">极速购知识库助手</span>
+              <span class="agent-name">服满海知识库助手</span>
               <span class="status" :class="{ active: !loading }">
                 {{ loading ? '查询中...' : '在线' }}
               </span>
@@ -79,8 +79,8 @@
         <main class="messages-wrap scroll-thin" ref="messagesRef">
           <div v-if="messages.length === 0" class="welcome">
             <span class="welcome-avatar">购</span>
-            <p class="welcome-text">您好，我是极速购知识库助手。</p>
-            <p class="welcome-sub">点击左侧商品即可向我提问，或直接输入关于海信商品的任何问题。</p>
+            <p class="welcome-text">您好，我是服满海知识库助手。</p>
+            <p class="welcome-sub">点击左侧商品即可向我提问，或直接输入关于海尔商品的任何问题。</p>
           </div>
 
           <div
@@ -131,6 +131,7 @@
 <script setup>
 import { ref, computed, onMounted, nextTick } from 'vue';
 import { useRag } from '../composables/useRag.js';
+import { resolveImage } from '../utils/image.js';
 
 const { messages, loading, error, ask, clearMessages } = useRag();
 
@@ -214,7 +215,7 @@ const imgErr = (e) => {
 
 /* ─── 交互 ─── */
 const askProduct = (p) => {
-  inputText.value = `我想了解海信商品「${p.name}」，型号 ${p.model}，价格是多少？有什么特点？`;
+  inputText.value = `我想了解海尔商品「${p.name}」，型号 ${p.model}，价格是多少？有什么特点？`;
   handleSend();
 };
 
@@ -233,8 +234,9 @@ const handleSend = async () => {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/hisense/products.json');
-    products.value = await res.json();
+    const res = await fetch('/haier/products.json');
+    const list = await res.json();
+    products.value = list.map((p) => ({ ...p, image: resolveImage(p.image) }));
   } catch (e) {
     console.error('加载商品数据失败', e);
   }

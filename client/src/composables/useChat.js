@@ -6,7 +6,7 @@
 import { ref, nextTick } from 'vue';
 import { useModel } from './useModel.js';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 const nowTime = () =>
   new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });

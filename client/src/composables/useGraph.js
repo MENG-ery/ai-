@@ -1,7 +1,7 @@
 // client/src/composables/useGraph.js
 import { ref, nextTick } from 'vue';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 export const NODE_LABELS = {
   intentRouter:      '意图识别',

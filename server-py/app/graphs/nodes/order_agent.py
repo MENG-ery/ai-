@@ -8,7 +8,7 @@ _model = create_model(temperature=0)
 _agent_app = create_react_agent(
     model=_model,
     tools=all_tools,
-    prompt="""你是极速购的订单查询助手。
+    prompt="""你是服满海的订单查询助手。
 根据用户的问题，调用相应工具查询订单或物流信息。
 只查询数据，不需要生成最终的客服回答。""",
 )

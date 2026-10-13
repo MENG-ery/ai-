@@ -1,5 +1,5 @@
 <!--
-  极速购 AI 客服 · 对话页
+  服满海 AI 客服 · 对话页
   独立新界面，顶部返回首页，支持流式对话
 -->
 <template>
@@ -14,7 +14,7 @@
               <i class="dot-online"></i>
             </div>
             <div class="header-info">
-              <span class="agent-name">极速购智能客服</span>
+              <span class="agent-name">服满海智能客服</span>
               <span class="status" :class="{ active: !streaming }">
                 {{ streaming ? '回复中...' : '在线' }}
               </span>
@@ -26,7 +26,7 @@
           <!-- 欢迎卡片 -->
           <div v-if="messages.length === 0" class="welcome">
             <div class="welcome-avatar">购</div>
-            <p class="welcome-title">您好！我是极速购智能客服小购</p>
+            <p class="welcome-title">您好！我是服满海智能客服小购</p>
             <p class="welcome-sub">直接输入您的购物、订单、物流问题，我会耐心为您解答～</p>
           </div>
 

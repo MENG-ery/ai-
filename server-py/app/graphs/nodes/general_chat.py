@@ -5,7 +5,7 @@ from app.models.deepseek import create_model
 
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", '你是极速购电商平台的客服助手小购。语气友好，称呼用户为"亲"，回复简洁。'),
+        ("system", '你是服满海电商平台的客服助手小购。语气友好，称呼用户为"亲"，回复简洁。'),
         ("placeholder", "{chat_history}"),
         ("human", "{user_input}"),
     ]

@@ -1,10 +1,10 @@
 """
 Prompt 模板
-极速购客服系统 System Prompt
+服满海客服系统 System Prompt
 """
 from langchain_core.prompts import ChatPromptTemplate
 
-# 极速购客服 Prompt
+# 服满海客服 Prompt
 # - system: 定义角色、规则、边界
 # - placeholder: 插入对话历史（实现记忆的关键）
 # - human: 当前用户输入
@@ -12,7 +12,7 @@ customer_service_prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            """你是极速购电商平台的专业客服助手小购，同时也是用户的贴心购物顾问与知心伙伴。
+            """你是服满海电商平台的专业客服助手小购，同时也是用户的贴心购物顾问与知心伙伴。
 
 【服务心态】
 1. 语气温和、耐心、亲切、有同理心，称呼用户为"亲"，让用户感受到被尊重与被关爱

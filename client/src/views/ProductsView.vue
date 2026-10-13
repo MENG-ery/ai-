@@ -1,11 +1,11 @@
-<!-- client/src/views/ProductsView.vue（产品中心：海信全品类智能家电） -->
+<!-- client/src/views/ProductsView.vue（产品中心：海尔全品类智能家电） -->
 <template>
   <div class="products-page">
     <!-- 页头 -->
     <div class="page-head">
       <div class="page-head-inner">
         <h1>产品中心</h1>
-        <p class="head-sub">海信全品类智能家电，为美好生活而来 · 点击产品卡片即可咨询智能客服</p>
+        <p class="head-sub">海尔全品类智能家电，为美好生活而来 · 点击产品卡片即可咨询智能客服</p>
       </div>
     </div>
 
@@ -37,18 +37,18 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const products = [
-  { label: '海信电视',     img: '/hisense/tv.jpg',      desc: '画质旗舰 智能大屏，ULED/Mini LED 显示技术' },
-  { label: '海信空调',     img: '/hisense/air.jpg',     desc: '新风舒适 智能控温，净化除菌更健康' },
-  { label: '海信冰箱',     img: '/hisense/fridge.jpg',  desc: '真空保鲜 超大容量，锁住营养不流失' },
-  { label: '海信洗衣机',   img: '/hisense/wash.jpg',    desc: '洗烘一体 除菌除螨，AI 智慧投放' },
-  { label: '海信冷柜·冰吧', img: '/hisense/freezer.jpg', desc: '风冷无霜 囤鲜无忧，-40℃ 深冷速冻' },
-  { label: '海信厨卫',     img: '/hisense/kitchen.jpg', desc: '烟灶联动 净享烹饪，静音大吸力' },
-  { label: '海信 UX 电视', img: '/hisense/tv-ux.jpg',    desc: 'RGB-Mini LED，跨代引领 万色生辉' },
-  { label: '海信大力神空调 U6', img: '/hisense/air-u6.jpg', desc: '超大新风 神机妙算，强劲制冷热' },
-  { label: '海信空调智慧风 E5L', img: '/hisense/air-e5l.jpg', desc: '滑启智慧风，主动识人防直吹' },
-  { label: '海信洗衣机大薄荷 2.0', img: '/hisense/wash-2e5s.jpg', desc: '自由组合 衣鞋同净，除菌除螨' },
-  { label: '海信静烟机',   img: '/hisense/range-hood.jpg', desc: '行业静烟机开创者，安静无油烟' },
-  { label: 'AI 真空净味冰箱', img: '/hisense/fridge-ai.jpg', desc: '嗅出异味 管理新鲜，真空保鲜' },
+  { label: '海尔电视',       img: '/haier/dianshi.jpg',   desc: '全场景智慧屏，Mini LED 高画质，客厅娱乐中心' },
+  { label: '海尔空调',       img: '/haier/kongtiao.jpg',  desc: '自清洁变频，新风净化，舒适健康又省电' },
+  { label: '海尔冰箱',       img: '/haier/bingxiang.jpg', desc: '全空间保鲜，风冷无霜，锁住食材原鲜' },
+  { label: '海尔洗衣机',     img: '/haier/xiyiji.jpg',    desc: '直驱变频，洗烘一体，除菌除螨更安心' },
+  { label: '海尔冷柜',       img: '/haier/lenggui.jpg',   desc: '大容量强冷速冻，囤鲜无忧低噪省电' },
+  { label: '海尔冰吧·酒柜',  img: '/haier/jiugui.jpg',    desc: '恒温储酒，独立控温，品味生活之选' },
+  { label: '海尔热水器',     img: '/haier/reshuiqi.jpg',  desc: '速热恒温，安全防电墙，畅享沐浴' },
+  { label: '海尔厨电',       img: '/haier/chufang.jpg',   desc: '烟灶联动，大吸力静音，净享烹饪' },
+  { label: '海尔电脑',       img: '/haier/diannao.jpg',   desc: '轻薄办公，性能强劲，畅快高效' },
+  { label: '海尔智能家居',   img: '/haier/jiqiren.jpg',   desc: '智慧互联，全屋联动，一句话操控' },
+  { label: '海尔智慧家庭',   img: '/haier/shenghuo.jpg',  desc: '智家场景定制，让生活更美好' },
+  { label: '海尔冰吧',       img: '/haier/bingba.jpg',    desc: '分区储藏，冷藏保鲜，即取即享' },
 ];
 
 const consult = (label) => {

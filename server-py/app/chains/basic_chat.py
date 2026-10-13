@@ -8,13 +8,13 @@ from langchain_core.output_parsers import StrOutputParser
 from app.models.deepseek import create_model, create_model_from_config
 from app.prompts.customer_service import customer_service_prompt, general_chat_prompt
 
-# ─── 极速购客服 Chain（非流式）───────────────────────────────────
+# ─── 服满海客服 Chain（非流式）───────────────────────────────────
 _model = create_model(temperature=0.5)
 _parser = StrOutputParser()
 
 customer_service_chain = customer_service_prompt | _model | _parser
 
-# ─── 极速购客服 Chain（流式）────────────────────────────────────
+# ─── 服满海客服 Chain（流式）────────────────────────────────────
 _streaming_model = create_model(temperature=0.5, streaming=True)
 
 customer_service_stream_chain = customer_service_prompt | _streaming_model | _parser

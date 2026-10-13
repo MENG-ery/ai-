@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { useModel } from './useModel.js';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 export function useRag() {
   const messages = ref([]);
@@ -54,10 +54,11 @@ export function useRag() {
             }
 
             if (parsed.type === 'answer') {
+              const cur = messages.value[assistantIndex];
               messages.value[assistantIndex] = {
                 role:    'assistant',
-                content: parsed.content,
-                sources: messages.value[assistantIndex].sources,
+                content: parsed.delta ? (cur.content || '') + parsed.content : parsed.content,
+                sources: cur.sources,
                 loading: false,
               };
               scrollCallback?.();

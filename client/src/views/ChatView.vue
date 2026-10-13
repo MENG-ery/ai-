@@ -1,5 +1,5 @@
 <!--
-  极速购 AI 客服 · 首页
+  服满海 AI 客服 · 首页
   Hero 风景图轮播 + 搜索框 + 热门问题 + 产品图片墙
   检索后跳转到独立对话页 /chat
 -->
@@ -33,7 +33,7 @@
     <div class="home-stage">
       <div class="search-inner">
         <div class="welcome-text">
-          <h1 class="welcome-title">您好！我是极速购智能客服小购</h1>
+          <h1 class="welcome-title">您好！我是服满海智能客服小购</h1>
           <p class="welcome-sub">您可以咨询购物、订单、物流等问题，也可以从下方热门问题开始</p>
         </div>
 
@@ -71,10 +71,16 @@
               v-for="p in homeProducts"
               :key="p.id"
               class="wall-card"
+              @click="goAsk(`我想了解海尔商品「${p.name}」，型号 ${p.model}，${fmtPrice(p.price)}，它有什么特点？`)"
             >
               <span class="wall-img">
                 <img :src="p.image" :alt="p.name" loading="lazy" @error="imgErr($event)" />
               </span>
+              <div class="wall-info">
+                <p class="wall-name">{{ p.name }}</p>
+                <p class="wall-desc">{{ p.desc }}</p>
+                <span class="wall-price">¥{{ fmtPrice(p.price) }}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -86,6 +92,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
+import { resolveImage } from '../utils/image.js';
 
 const router = useRouter();
 
@@ -125,10 +132,16 @@ const homeProducts = ref([]);
 
 const loadHomeProducts = async () => {
   try {
-    const res = await fetch('/hisense/products.json');
+    const res = await fetch('/haier/products.json');
     const list = await res.json();
-    const picks = list.filter((p) => p.price && p.price >= 500 && p.image).slice(0, 12);
-    homeProducts.value = picks;
+    const valid = list.filter((p) => p.price >= 500 && p.image);
+    const byCat = new Map();
+    for (const p of valid) {
+      const key = p.cat || '其他';
+      if (!byCat.has(key)) byCat.set(key, p);
+    }
+    const picks = [...byCat.values()].slice(0, 12);
+    homeProducts.value = picks.map((p) => ({ ...p, image: resolveImage(p.image) }));
   } catch (e) {
     console.error('加载产品墙失败', e);
   }
@@ -136,6 +149,11 @@ const loadHomeProducts = async () => {
 
 const imgErr = (e) => {
   e.target.style.visibility = 'hidden';
+};
+
+const fmtPrice = (num) => {
+  if (num == null) return '咨询';
+  return num.toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 };
 
 /* ─── 跳转对话 ─── */
@@ -365,6 +383,7 @@ const handleSearch = () => {
   background: #fff;
   border: 1px solid var(--haier-border);
   border-radius: var(--haier-radius);
+  cursor: pointer;
   transition: box-shadow .25s, transform .25s, border-color .25s;
 }
 .wall-card:hover {
@@ -377,7 +396,7 @@ const handleSearch = () => {
   align-items: center;
   justify-content: center;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
@@ -389,4 +408,34 @@ const handleSearch = () => {
   transition: transform .3s;
 }
 .wall-card:hover .wall-img img { transform: scale(1.06); }
+.wall-info {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.wall-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--haier-text);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wall-desc {
+  font-size: 12px;
+  color: var(--haier-text-sub);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wall-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--haier-primary);
+}
 </style>

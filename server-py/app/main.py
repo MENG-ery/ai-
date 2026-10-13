@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.routers import agent, chat, graph, products, rag
 
-app = FastAPI(title="极速购 AI 客服系统")
+app = FastAPI(title="服满海 AI 客服系统")
 
 app.add_middleware(
     CORSMiddleware,
@@ -26,7 +26,7 @@ app.include_router(products.router, prefix="/api")
 @app.get("/")
 async def root():
     return {
-        "service": "极速购 AI 客服系统",
+        "service": "服满海 AI 客服系统",
         "version": "1.0.0",
         "routes": {
             "chat": "POST /api/chat/stream",

@@ -1,7 +1,7 @@
 // client/src/composables/useAgent.js
 import { ref, nextTick } from 'vue';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 export function useAgent() {
   const messages = ref([]);

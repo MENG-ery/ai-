@@ -1,0 +1,1271 @@
+[
+  {
+    "id": 1,
+    "name": "海尔477升风冷变频十字对开门冰箱",
+    "model": "BCD-477WGHTDEDSP",
+    "price": 3299.0,
+    "image": "https://image.haier.com/cn/cooling/W020230606410456290402.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 2,
+    "name": "海尔283升风冷变频三门冰箱",
+    "model": "BCD-283WLHC357SW",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/cooling/W020240611380239006060.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 3,
+    "name": "海尔山茶花 413升风冷变频多门冰箱",
+    "model": "BCD-413WGHFD1BSJU1",
+    "price": 5299.0,
+    "image": "https://image.haier.com/cn/cooling/W020241118370399912353.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 4,
+    "name": "海尔623升风冷变频十字对开门冰箱",
+    "model": "BCD-623WLHTD2BGWU1",
+    "price": 13499.0,
+    "image": "https://image.haier.com/cn/cooling/W020240725366230878234.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 5,
+    "name": "海尔521升风冷变频十字对开门冰箱",
+    "model": "BCD-521WLHTD2BGWU1",
+    "price": 9999.0,
+    "image": "https://image.haier.com/cn/cooling/W020240812367712189643.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 6,
+    "name": "海尔202升风冷定频两门冰箱",
+    "model": "BCD-202WGHC290S9",
+    "price": 1599.0,
+    "image": "https://image.haier.com/cn/cooling/W020240807383750910652.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 7,
+    "name": "海尔山茶花 413升风冷变频多门冰箱",
+    "model": "BCD-413WGHFD1BSJU1(灰)",
+    "price": 5299.0,
+    "image": "https://image.haier.com/cn/cooling/W020241111490206822895.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 8,
+    "name": "海尔351升风冷变频三门冰箱",
+    "model": "BCD-351WLHD3E7SFU1",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/cooling/W020240522382537320333.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 9,
+    "name": "海尔625升风冷变频十字对开门冰箱",
+    "model": "BCD-625WLHTD2BW4U1",
+    "price": 13999.0,
+    "image": "https://image.haier.com/cn/cooling/W020240801374613086672.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 10,
+    "name": "海尔309升风冷变频两门冰箱",
+    "model": "BCD-309WMCO",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/cooling/W020191212518423546118.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 11,
+    "name": "海尔516升风冷变频对开门冰箱",
+    "model": "BCD-516WLHSSEDSH",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/cooling/W020240403389405892609.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 12,
+    "name": "海尔山茶花 413升风冷变频多门冰箱",
+    "model": "BCD-413WGHFD1BSJU1(白)",
+    "price": 5799.0,
+    "image": "https://image.haier.com/cn/cooling/W020241112365352981975.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 13,
+    "name": "海尔418升风冷变频十字对开门冰箱",
+    "model": "BCD-418WGHTDB9WVU1",
+    "price": 4299.0,
+    "image": "https://image.haier.com/cn/cooling/W020240927549706969370.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 14,
+    "name": "海尔341升风冷变频多门冰箱",
+    "model": "BCD-341WLHFD7DSDU1",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/cooling/W020230314403645321085.png",
+    "cat": "冰箱",
+    "desc": "全空间保鲜 · 风冷无霜 · 变频节能"
+  },
+  {
+    "id": 15,
+    "name": "海尔瑞熙 1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B3KHA81U1",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020231109410629371930.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 16,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/C1DAC81VU1",
+    "price": 4099.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020251202340836097019.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 17,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B1KTA81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020220110359949064048.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 18,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B1KDA81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020220111484329364283.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 19,
+    "name": "海尔大1匹壁挂式变频空调",
+    "model": "KFR-26GW/B3KHA81U1",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020231107386650292720.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 20,
+    "name": "海尔京喜 1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B1KJA81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020211203374607220345.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 21,
+    "name": "海尔3匹柜式变频空调",
+    "model": "KFR-72LW/A1FBA81U1",
+    "price": 7599.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020230201363750270429.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 22,
+    "name": "海尔雷神者Ⅱ 1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B2KEB81U1(冰雪白)",
+    "price": 3499.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020220614495836022422.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 23,
+    "name": "海尔品樾 1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/T200-1",
+    "price": 3199.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020241126360933379004.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 24,
+    "name": "海尔洗空气空调",
+    "model": "KFR-50GW/A4GAB81U1",
+    "price": 6499.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020240923494317218689.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 25,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B5LAA81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020221227351794378183.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 26,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/C2KKC81U1(白)",
+    "price": 3199.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020240116375609482202.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 27,
+    "name": "海尔净畅 1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B1KPB81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020230823648465283542.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 28,
+    "name": "海尔1.5匹壁挂式变频空调",
+    "model": "KFR-35GW/B5LDA81U1",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/air_conditioners/W020221220359038561219.png",
+    "cat": "空调",
+    "desc": "变频冷暖 · 新风净化 · 舒适静音"
+  },
+  {
+    "id": 29,
+    "name": "海尔小红花 10公斤直驱变频滚筒洗衣机",
+    "model": "G10090BD12S",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/laundry/W020240613394140185986.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 30,
+    "name": "海尔云溪 10公斤紫外线除菌波轮洗衣机",
+    "model": "XQS100-BZ358S",
+    "price": 2469.0,
+    "image": "https://image.haier.com/cn/laundry/W020220624378627053921.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 31,
+    "name": "海尔10公斤全自动波轮洗衣机",
+    "model": "XQB100-BA608",
+    "price": 1319.0,
+    "image": "https://image.haier.com/cn/laundry/W020240430376754795641.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 32,
+    "name": "海尔12公斤直驱变频波轮洗衣机",
+    "model": "XQB120-BA608",
+    "price": 1499.0,
+    "image": "https://image.haier.com/cn/laundry/W020240618394639206700.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 33,
+    "name": "海尔5公斤迷你波轮洗衣机",
+    "model": "XQB50-B378",
+    "price": 1799.0,
+    "image": "https://image.haier.com/cn/laundry/W020220623522130737028.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 34,
+    "name": "海尔3公斤壁挂迷你滚筒洗衣机",
+    "model": "XQGM30-B700U1",
+    "price": 1899.0,
+    "image": "https://image.haier.com/cn/laundry/W020230711351579687970.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 35,
+    "name": "海尔10公斤双桶波轮洗衣机",
+    "model": "XPB100-628S",
+    "price": 699.0,
+    "image": "https://image.haier.com/cn/laundry/W020210331544012099048.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 36,
+    "name": "海尔云溪 10公斤精华洗滚筒洗衣机",
+    "model": "EG100BD376PLUSLU1",
+    "price": 4299.0,
+    "image": "https://image.haier.com/cn/laundry/W020240529344032258060.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 37,
+    "name": "海尔10公斤直驱变频波轮洗衣机",
+    "model": "EB100B32Mate1",
+    "price": 1099.0,
+    "image": "https://image.haier.com/cn/laundry/W020231012395119377252.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 38,
+    "name": "海尔10公斤超薄变频滚筒洗衣机",
+    "model": "EG100MATE29S",
+    "price": 1599.0,
+    "image": "https://image.haier.com/cn/laundry/W020240726393338459467.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 39,
+    "name": "海尔12公斤大容量波轮洗衣机",
+    "model": "EB120B53Pro3",
+    "price": 1569.0,
+    "image": "https://image.haier.com/cn/laundry/W020240515365278048463.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 40,
+    "name": "海尔3公斤壁挂迷你滚筒洗衣机",
+    "model": "XQGM30-BX798SU1",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/laundry/W020260908521769677594.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 41,
+    "name": "海尔小红花 8公斤超薄变频滚筒洗衣机",
+    "model": "EG80MATE33S",
+    "price": 2099.0,
+    "image": "https://image.haier.com/cn/laundry/W020231212353567433922.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 42,
+    "name": "海尔云溪 10公斤精华洗波轮洗衣机",
+    "model": "XQS100-BE658",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/laundry/W020240801396112112548.png",
+    "cat": "洗衣机",
+    "desc": "直驱变频 · 洗烘一体 · 除菌除螨"
+  },
+  {
+    "id": 43,
+    "name": "海尔55英寸4K超高清电视",
+    "model": "LU55C51G",
+    "price": 2699.0,
+    "image": "https://image.haier.com/cn/televisions/W020191219511701155619.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 44,
+    "name": "海尔65英寸智能电视",
+    "model": "65T75",
+    "price": 5998.0,
+    "image": "https://image.haier.com/cn/televisions/W020191219492163820039.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 45,
+    "name": "海尔50英寸4K超高清电视",
+    "model": "LU50C51G",
+    "price": 2399.0,
+    "image": "https://image.haier.com/cn/televisions/W020191219506083172177.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 46,
+    "name": "海尔58英寸智能电视",
+    "model": "58K31",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/televisions/W020191220401415957212.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 47,
+    "name": "海尔55英寸4K超高清平板电视",
+    "model": "LS55H710X",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/televisions/W020191219535560732514.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 48,
+    "name": "海尔55英寸4K超高清平板电视",
+    "model": "55A20D",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/televisions/W020250611379305127059.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 49,
+    "name": "海尔麦浪 75英寸4K超高清平板电视",
+    "model": "75A70D",
+    "price": 7599.0,
+    "image": "https://image.haier.com/cn/televisions/W020251027428038713782.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 50,
+    "name": "海尔麦浪 75英寸4K超高清平板电视",
+    "model": "75A79D",
+    "price": 7599.0,
+    "image": "https://image.haier.com/cn/televisions/W020251209364049945793.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 51,
+    "name": "海尔天悦 65英寸4K超高清平板电视",
+    "model": "65Q30D",
+    "price": 3999.0,
+    "image": "https://image.haier.com/cn/televisions/W020260116376574209210.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 52,
+    "name": "海尔小红花 50英寸全高清平板电视",
+    "model": "50H5D",
+    "price": 1699.0,
+    "image": "https://image.haier.com/cn/televisions/W020260401367870562831.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 53,
+    "name": "海尔Seeker 85英寸4K超高清平板电视",
+    "model": "85V80D",
+    "price": 12999.0,
+    "image": "https://image.haier.com/cn/televisions/W020260415411762017063.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 54,
+    "name": "海尔43英寸全高清平板电视",
+    "model": "43C50D",
+    "price": 1499.0,
+    "image": "https://image.haier.com/cn/televisions/W020260416366959504008.png",
+    "cat": "电视",
+    "desc": "4K 高清画质 · 智能语音 · 全场景互联"
+  },
+  {
+    "id": 55,
+    "name": "海尔519升冷藏冷冻转换柜",
+    "model": "BC/BD-519GHPT",
+    "price": 3199.0,
+    "image": "https://image.haier.com/cn/freezer/W020230307486245851217.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 56,
+    "name": "海尔241升冷藏冷冻转换柜",
+    "model": "BC/BD-241WGHESM",
+    "price": 2399.0,
+    "image": "https://image.haier.com/cn/freezer/W020240307398764808031.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 57,
+    "name": "海尔429升冷藏冷冻转换柜",
+    "model": "BC/BD-429GHPT",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/freezer/W020230301398153527946.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 58,
+    "name": "海尔300升冷藏冷冻转换柜",
+    "model": "BC/BD-300GHPC",
+    "price": 1499.0,
+    "image": "https://image.haier.com/cn/freezer/W020250714343078479271.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 59,
+    "name": "海尔100升冷藏冷冻转换柜",
+    "model": "BC/BD-100GHPG9Z",
+    "price": 999.0,
+    "image": "https://image.haier.com/cn/freezer/W020250219560416550653.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 60,
+    "name": "海尔云溪 300升冷藏冷冻转换柜",
+    "model": "BC/BD-300WGHEC",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/freezer/W020240704372104638032.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 61,
+    "name": "海尔小红花 200升冷藏冷冻转换柜",
+    "model": "BC/BD-200WGHEY9",
+    "price": 1999.0,
+    "image": "https://image.haier.com/cn/freezer/W020241108395928876965.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 62,
+    "name": "海尔369升冷藏冷冻转换柜",
+    "model": "BC/BD-369GHPT",
+    "price": 2299.0,
+    "image": "https://image.haier.com/cn/freezer/W020230421555601061424.png",
+    "cat": "冷柜",
+    "desc": "大容量强冷 · 深冷速冻 · 低噪省电"
+  },
+  {
+    "id": 63,
+    "name": "海尔小红花 92升冰吧",
+    "model": "LC-92LHESD1",
+    "price": 1299.0,
+    "image": "https://image.haier.com/cn/ice_bar/W020230321365087224637.png",
+    "cat": "冰吧",
+    "desc": "分区冷藏 · 独立控温 · 即取即享"
+  },
+  {
+    "id": 64,
+    "name": "海尔云溪 136升冰吧",
+    "model": "LC-136LHESD1",
+    "price": 2829.0,
+    "image": "https://image.haier.com/cn/ice_bar/W020240417358104332133.png",
+    "cat": "冰吧",
+    "desc": "分区冷藏 · 独立控温 · 即取即享"
+  },
+  {
+    "id": 65,
+    "name": "海尔云溪 167升冰吧",
+    "model": "LC-167LH69D1",
+    "price": 3899.0,
+    "image": "https://image.haier.com/cn/ice_bar/W020220419529732579674.png",
+    "cat": "冰吧",
+    "desc": "分区冷藏 · 独立控温 · 即取即享"
+  },
+  {
+    "id": 66,
+    "name": "海尔麦浪 132升冰吧",
+    "model": "LC-132LH9EC1",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/ice_bar/W020240312367100285803.png",
+    "cat": "冰吧",
+    "desc": "分区冷藏 · 独立控温 · 即取即享"
+  },
+  {
+    "id": 67,
+    "name": "海尔天悦 200升冰吧",
+    "model": "LC-200WLH69D1U1",
+    "price": 4399.0,
+    "image": "https://image.haier.com/cn/ice_bar/W020220418504813306481.png",
+    "cat": "冰吧",
+    "desc": "分区冷藏 · 独立控温 · 即取即享"
+  },
+  {
+    "id": 68,
+    "name": "海尔麦浪 33瓶装酒柜",
+    "model": "JC-90WGHUD1",
+    "price": 1599.0,
+    "image": "https://image.haier.com/cn/wine/W020230321368062941632.png",
+    "cat": "酒柜",
+    "desc": "恒温储酒 · 独立温区 · 静音呵护"
+  },
+  {
+    "id": 69,
+    "name": "海尔麦浪 52瓶装酒柜",
+    "model": "JC-150WGHUD1",
+    "price": 2199.0,
+    "image": "https://image.haier.com/cn/wine/W020230404360348126267.png",
+    "cat": "酒柜",
+    "desc": "恒温储酒 · 独立温区 · 静音呵护"
+  },
+  {
+    "id": 70,
+    "name": "海尔麦浪 52瓶装酒柜",
+    "model": "WS052WGHUD1",
+    "price": 2399.0,
+    "image": "https://image.haier.com/cn/wine/W020230428378338282147.png",
+    "cat": "酒柜",
+    "desc": "恒温储酒 · 独立温区 · 静音呵护"
+  },
+  {
+    "id": 71,
+    "name": "海尔60升速热大水量横式电热水器",
+    "model": "ES60H-Q3白",
+    "price": 1399.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020240510405127315974.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 72,
+    "name": "海尔60升速热大水量横式电热水器",
+    "model": "ES60H-D3(1)U1",
+    "price": 1699.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020230904500591979972.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 73,
+    "name": "海尔60升健康抑菌横式电热水器",
+    "model": "ES60H-CK3(1)",
+    "price": 999.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020240124361648691311.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 74,
+    "name": "海尔50升健康抑菌横式电热水器",
+    "model": "ES50H-CK3(1)",
+    "price": 899.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020240124356777568226.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 75,
+    "name": "海尔小红花 60升超短机身横式电热水器",
+    "model": "ES60HD-H3K03U1",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020241101403045600625.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 76,
+    "name": "海尔麦浪 60升小蓝瓶净水洗横式电热水器",
+    "model": "ES60HD-RC3KA03U1",
+    "price": 3899.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020240530384123027165.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 77,
+    "name": "海尔60升健康抑菌横式电热水器",
+    "model": "ES60H-CK6(1)",
+    "price": 1099.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020240828381792382398.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 78,
+    "name": "海尔水伺服恒温即热式电热水器",
+    "model": "DSH-85ZE1",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/water_heaters/drsq/W020230419380705693749.png",
+    "cat": "电热水器",
+    "desc": "速热恒温 · 抑菌净水 · 安全防电墙"
+  },
+  {
+    "id": 79,
+    "name": "海尔16升双增压零冷水燃气热水器",
+    "model": "JSQ31-16FR3SFRXGU1",
+    "price": 3299.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020240718349629581900.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 80,
+    "name": "海尔16升水伺服恒温燃气热水器",
+    "model": "JSQ31-16KL7云程U1",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020230309383389675277.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 81,
+    "name": "海尔16升变频恒温燃气热水器",
+    "model": "JSQ30-16J(12T)",
+    "price": 2799.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020241209372578170609.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 82,
+    "name": "海尔13升智能变升燃气热水器",
+    "model": "JSQ25-13ZM3MSU1",
+    "price": 1699.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020221108572319007614.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 83,
+    "name": "海尔12升水气双调恒温燃气热水器",
+    "model": "JSQ22-12K1BW",
+    "price": 949.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020230406601300913371.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 84,
+    "name": "海尔16升零冷水燃气热水器",
+    "model": "JSQ30-16VR6DRMGU1",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020240613391335119063.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 85,
+    "name": "海尔13升智慧节能燃气热水器",
+    "model": "JSQ25-13WG3(12T)U1",
+    "price": 1299.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020220907375806842212.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 86,
+    "name": "海尔16升水气双调恒温燃气热水器",
+    "model": "JSQ30-16DM7(12T)U1",
+    "price": 2199.0,
+    "image": "https://image.haier.com/cn/water_heaters/rqrsq/W020210108523538860754.png",
+    "cat": "燃气热水器",
+    "desc": "恒温出水 · 零冷水 · 安全防冻"
+  },
+  {
+    "id": 87,
+    "name": "海尔200升高温抑菌空气能热水器",
+    "model": "KF75/200-NE7-U1",
+    "price": 6929.0,
+    "image": "https://image.haier.com/cn/water_heaters/kqnrsq/W020221115524750910266.png",
+    "cat": "空气能热水器",
+    "desc": "一级能效 · 全屋热水 · 省电耐用"
+  },
+  {
+    "id": 88,
+    "name": "海尔300升变频节能空气能热水器",
+    "model": "KF110/300-ME7AU1",
+    "price": 9129.0,
+    "image": "https://image.haier.com/cn/water_heaters/kqnrsq/W020240222389459705510.png",
+    "cat": "空气能热水器",
+    "desc": "一级能效 · 全屋热水 · 省电耐用"
+  },
+  {
+    "id": 89,
+    "name": "海尔200升双源速热空气能热水器",
+    "model": "KF75/200-GC1E7NU1",
+    "price": 7999.0,
+    "image": "https://image.haier.com/cn/water_heaters/kqnrsq/W020221229501343688695.png",
+    "cat": "空气能热水器",
+    "desc": "一级能效 · 全屋热水 · 省电耐用"
+  },
+  {
+    "id": 90,
+    "name": "海尔300升高温抑菌空气能热水器",
+    "model": "KF110/300-AFE7U1",
+    "price": 9598.0,
+    "image": "https://image.haier.com/cn/water_heaters/kqnrsq/W020250421375266863644.png",
+    "cat": "空气能热水器",
+    "desc": "一级能效 · 全屋热水 · 省电耐用"
+  },
+  {
+    "id": 91,
+    "name": "海尔顶侧前三吸式屏触摸按键吸油烟机",
+    "model": "CXW-358-C2700",
+    "price": 2899.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020231110506622469807.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 92,
+    "name": "海尔小红花 超薄平嵌油烟机",
+    "model": "CXW-358-C3710UD",
+    "price": 4599.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020240828398456576355.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 93,
+    "name": "海尔顶侧前三吸式二速触控吸油烟机",
+    "model": "CXW-358-C2709UD",
+    "price": 4099.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020240527364266978802.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 94,
+    "name": "海尔分区环吸油烟机",
+    "model": "CXW-358-T1920",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020240408384173765044.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 95,
+    "name": "海尔顶吸式吸油烟机",
+    "model": "CXW-219-T1915",
+    "price": 2099.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020221115390934713521.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 96,
+    "name": "海尔侧吸式二速屏触摸按键吸油烟机",
+    "model": "CXW-258-C1910",
+    "price": 2099.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xyyj/W020230830346634282353.png",
+    "cat": "油烟机",
+    "desc": "大吸力 · 低噪静吸 · 自清洗"
+  },
+  {
+    "id": 97,
+    "name": "海尔5.2kW台嵌两用钢化玻璃燃气灶",
+    "model": "JZT-QG21(12T)",
+    "price": 1699.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020221206389697135181.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 98,
+    "name": "海尔小红花 5.2kW高能效燃气灶",
+    "model": "JZT-QG91(12T)",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020240709387940823345.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 99,
+    "name": "海尔高能效燃气灶",
+    "model": "JZT-QG23(12T)",
+    "price": 2299.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020241115351876433761.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 100,
+    "name": "海尔5.2kW台嵌两用钢化玻璃燃气灶",
+    "model": "JZT-Q2BE56(12T)",
+    "price": 1499.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020230506355931971594.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 101,
+    "name": "海尔5.2kW台嵌两用钢化玻璃燃气灶",
+    "model": "JZT-Q2BE6(12T)",
+    "price": 999.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020240328376717181853.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 102,
+    "name": "海尔5.2kW台嵌两用钢化玻璃燃气灶",
+    "model": "JZT-Q2BE58(12T)",
+    "price": 1199.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/rqz/W020231027390079221159.png",
+    "cat": "燃气灶",
+    "desc": "猛火节能 · 熄火保护 · 易清洁"
+  },
+  {
+    "id": 103,
+    "name": "海尔12套全嵌式全自动洗碗机",
+    "model": "EBW12227BKU1",
+    "price": 4999.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020240613331211667598.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 104,
+    "name": "海尔18套嵌入式全自动洗碗机",
+    "model": "EYBW18566JHU1",
+    "price": 9099.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020240926459679602696.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 105,
+    "name": "海尔16套独嵌两用全自动洗碗机",
+    "model": "EYBW16328GHU1",
+    "price": 5099.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020240617354574310839.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 106,
+    "name": "海尔6套台式香槟金全自动洗碗机",
+    "model": "HW4-B71S",
+    "price": 2730.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020191218323269138743.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 107,
+    "name": "海尔14套独嵌两用洗碗机",
+    "model": "EW14718",
+    "price": 1400.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020191217610898258668.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 108,
+    "name": "海尔小红花 14套嵌入式全自动洗碗机",
+    "model": "EYBW14586BBU1",
+    "price": 5899.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xwj/W020241118370760826070.png",
+    "cat": "洗碗机",
+    "desc": "高温除菌 · 大容量嵌入 · 全自动"
+  },
+  {
+    "id": 109,
+    "name": "海尔小红花 115升嵌入式光波巴氏消毒柜",
+    "model": "ZQD115F-H051",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xdg/W020240327372263657149.png",
+    "cat": "消毒柜",
+    "desc": "高温消毒 · 分层大容量 · 安全锁"
+  },
+  {
+    "id": 110,
+    "name": "海尔麦浪 110升嵌入式光波巴氏消毒柜",
+    "model": "ZQD110F-EC030",
+    "price": 3699.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xdg/W020240830385063877014.png",
+    "cat": "消毒柜",
+    "desc": "高温消毒 · 分层大容量 · 安全锁"
+  },
+  {
+    "id": 111,
+    "name": "海尔小红花 130升嵌入式光波巴氏消毒柜",
+    "model": "ZQD130F-EB130B",
+    "price": 2599.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xdg/W020250212362652568756.png",
+    "cat": "消毒柜",
+    "desc": "高温消毒 · 分层大容量 · 安全锁"
+  },
+  {
+    "id": 112,
+    "name": "海尔150升嵌入式AI高能灭菌舱消毒柜",
+    "model": "ZQD150F-EB150Max",
+    "price": 3899.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/xdg/W020260318392303652603.png",
+    "cat": "消毒柜",
+    "desc": "高温消毒 · 分层大容量 · 安全锁"
+  },
+  {
+    "id": 113,
+    "name": "海尔智能微烤一体机微波炉",
+    "model": "MZ-57AGU1",
+    "price": 1615.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/wbl/W020250324419813096807.png",
+    "cat": "微波炉",
+    "desc": "速热解冻 · 智能菜单 · 均匀加热"
+  },
+  {
+    "id": 114,
+    "name": "海尔鲜活水净水机臻芯i",
+    "model": "HKC600-RFB17A3U1",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020240929430611824940.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 115,
+    "name": "海尔专利鲜活水净水机",
+    "model": "HKC600-RFB26A3U1",
+    "price": 3699.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020240105360609701577.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 116,
+    "name": "海尔增压自吸净水机",
+    "model": "HRO7520-C",
+    "price": 2499.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020240328395819148955.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 117,
+    "name": "海尔六级净滤净水机",
+    "model": "HRO400EA1-3U1",
+    "price": 3299.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020220624397134399835.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 118,
+    "name": "海尔高效软化软水机",
+    "model": "HS13-JR(WH)U1",
+    "price": 6399.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020220317404338231139.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 119,
+    "name": "海尔复合净滤净水机",
+    "model": "HKC75-RLC0A3",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/xjd/jsj/W020230602355951882658.png",
+    "cat": "净水机",
+    "desc": "多级过滤 · 即滤即饮 · 大通量"
+  },
+  {
+    "id": 120,
+    "name": "海尔简爱S15-X15学生网课轻薄本",
+    "model": "简爱S15 Pro-X158DS",
+    "price": 2199.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020220317594700197950.png",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 121,
+    "name": "海尔凌越DS",
+    "model": "凌越 DS",
+    "price": 12599.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020190916067628704000.jpg",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 122,
+    "name": "海尔简爱11.6英寸触摸翻转本",
+    "model": "简爱S11 Pro-N8DD",
+    "price": 2099.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020211113541083507346.png",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 123,
+    "name": "海尔14英寸简爱系列轻薄笔记本电脑",
+    "model": "简爱S14 Pro-X148DS",
+    "price": 2199.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020220308423018329837.png",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 124,
+    "name": "海尔简爱S14 Pro轻薄商务本",
+    "model": "简爱S14 Pro-J8DE",
+    "price": 2399.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020210727627386145866.png",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 125,
+    "name": "海尔简爱S11",
+    "model": "S11-64A",
+    "price": 2399.0,
+    "image": "https://image.haier.com/cn/computers/bjb/W020191030704230318974.jpg",
+    "cat": "笔记本",
+    "desc": "轻薄便携 · 性能强劲 · 长续航"
+  },
+  {
+    "id": 126,
+    "name": "海尔纯白洁净智能马桶",
+    "model": "XA29V-A3CN",
+    "price": 6999.0,
+    "image": "https://image.haier.com/cn/xjd/znmt/W020250610393003642738.png",
+    "cat": "智能马桶",
+    "desc": "即热冲洗 · 自动除臭 · 智能感应"
+  },
+  {
+    "id": 127,
+    "name": "海尔超旋冲款智能马桶",
+    "model": "XA36V-B3CF",
+    "price": 5999.0,
+    "image": "https://image.haier.com/cn/xjd/znmt/W020240328365570558720.jpg",
+    "cat": "智能马桶",
+    "desc": "即热冲洗 · 自动除臭 · 智能感应"
+  },
+  {
+    "id": 128,
+    "name": "海尔轻智能马桶",
+    "model": "C2ZX3Plus",
+    "price": 2999.0,
+    "image": "https://image.haier.com/cn/xjd/znmt/W020240805634391393410.png",
+    "cat": "智能马桶",
+    "desc": "即热冲洗 · 自动除臭 · 智能感应"
+  },
+  {
+    "id": 129,
+    "name": "海尔自动翻盖款智能马桶",
+    "model": "XA45U-Q3CF",
+    "price": 7999.0,
+    "image": "https://image.haier.com/cn/xjd/znmt/W020240328619744473881.jpg",
+    "cat": "智能马桶",
+    "desc": "即热冲洗 · 自动除臭 · 智能感应"
+  },
+  {
+    "id": 130,
+    "name": "海尔纯白洁净智能马桶",
+    "model": "XA29V-A4CN",
+    "price": 6999.0,
+    "image": "https://image.haier.com/cn/xjd/znmt/W020250610391239877381.png",
+    "cat": "智能马桶",
+    "desc": "即热冲洗 · 自动除臭 · 智能感应"
+  },
+  {
+    "id": 131,
+    "name": "海尔萌宠手持挂烫机",
+    "model": "HY-MC1209F",
+    "price": 219.0,
+    "image": "https://image.haier.com/cn/xjd/gtj/W020240618568551493380.png",
+    "cat": "挂烫机",
+    "desc": "蒸汽除皱 · 快速护理 · 便携易用"
+  },
+  {
+    "id": 132,
+    "name": "海尔手持挂烫机",
+    "model": "HY-GW1206",
+    "price": 329.0,
+    "image": "https://image.haier.com/cn/xjd/gtj/W020220805568242197261.jpg",
+    "cat": "挂烫机",
+    "desc": "蒸汽除皱 · 快速护理 · 便携易用"
+  },
+  {
+    "id": 133,
+    "name": "海尔手持挂烫机",
+    "model": "HY-GW2503",
+    "price": 189.0,
+    "image": "https://image.haier.com/cn/xjd/gtj/W020230922549577027013.png",
+    "cat": "挂烫机",
+    "desc": "蒸汽除皱 · 快速护理 · 便携易用"
+  },
+  {
+    "id": 134,
+    "name": "海尔有线推杆吸尘器",
+    "model": "HT-C2160B 升级",
+    "price": 399.0,
+    "image": "https://image.haier.com/cn/xjd/xcq/W020220514432719105847.jpg",
+    "cat": "吸尘器",
+    "desc": "大吸力 · 无线轻便 · 深度除螨"
+  },
+  {
+    "id": 135,
+    "name": "海尔有线推杆吸尘器",
+    "model": "ZL605G",
+    "price": 159.0,
+    "image": "https://image.haier.com/cn/xjd/xcq/W020220506411958218645.png",
+    "cat": "吸尘器",
+    "desc": "大吸力 · 无线轻便 · 深度除螨"
+  },
+  {
+    "id": 136,
+    "name": "海尔世家除螨仪",
+    "model": "HZ-CS1S",
+    "price": 999.0,
+    "image": "https://image.haier.com/cn/xjd/xcq/W020240619589099047244.png",
+    "cat": "吸尘器",
+    "desc": "大吸力 · 无线轻便 · 深度除螨"
+  },
+  {
+    "id": 137,
+    "name": "海尔免拆洗智能电饭煲",
+    "model": "HRC-F5292N（专供）",
+    "price": 429.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/dfb/W020220510517798997802.png",
+    "cat": "电饭煲",
+    "desc": "精控火候 · 一键香糯 · 易清洗"
+  },
+  {
+    "id": 138,
+    "name": "海尔食尚4L天幕电饭煲",
+    "model": "HRC-JC2S4020",
+    "price": 499.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/dfb/W020230821315408770341.png",
+    "cat": "电饭煲",
+    "desc": "精控火候 · 一键香糯 · 易清洗"
+  },
+  {
+    "id": 139,
+    "name": "海尔炫彩触控2200W电磁炉",
+    "model": "C21-CK36（升级版）",
+    "price": 369.0,
+    "image": "https://image.haier.com/cn/kitchen_appliances/dcl/W020230922028212084372.png",
+    "cat": "电磁炉",
+    "desc": "大火力速热 · 触控操作 · 安全省电"
+  },
+  {
+    "id": 140,
+    "name": "海尔高速吹风机",
+    "model": "HF71 星蕴银",
+    "price": 599.0,
+    "image": "https://image.haier.com/cn/xjd/cfj/W020240612629227387011.png",
+    "cat": "吹风机",
+    "desc": "恒温速干 · 负离子护发 · 低噪"
+  },
+  {
+    "id": 141,
+    "name": "海尔MINI便携式剃须刀",
+    "model": "HSQ1-2218升级版",
+    "price": 229.0,
+    "image": "https://image.haier.com/cn/xjd/txd/W020230923518968802310.png",
+    "cat": "剃须刀",
+    "desc": "贴面剃净 · 全身水洗 · 快充长续航"
+  }
+]
