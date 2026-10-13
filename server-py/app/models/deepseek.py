@@ -27,6 +27,23 @@ def create_model(**overrides) -> ChatOpenAI:
     return ChatOpenAI(**params)
 
 
+def create_model_from_config(config: dict | None = None, **overrides) -> ChatOpenAI:
+    """根据前端传入的模型配置创建实例，未配置的字段回落到 .env 默认值。
+    config 形如 {"apiKey": "...", "baseUrl": "...", "model": "..."}。
+    """
+    if not config:
+        return create_model(**overrides)
+    params = {
+        "model": (config.get("model") or MODEL_NAME).strip() or MODEL_NAME,
+        "api_key": (config.get("apiKey") or DEEPSEEK_API_KEY).strip() or DEEPSEEK_API_KEY,
+        "base_url": (config.get("baseUrl") or DEEPSEEK_BASE_URL).strip() or DEEPSEEK_BASE_URL,
+        "temperature": 0.7,
+        "streaming": False,
+    }
+    params.update(overrides)
+    return ChatOpenAI(**params)
+
+
 # 默认导出一个标准实例（非流式）
 model = create_model()
 

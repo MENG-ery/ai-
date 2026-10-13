@@ -1,22 +1,27 @@
-/* ─── 海尔官网「售后服务与支持」风格主题 ─────────────────────── */
+/* ─── 现代 AI 客服主题（参考 DuckForce 的布局与设计语言，自有品牌内容） ── */
 :root {
-  --haier-primary:    #0c5ca8;   /* 品牌主色（深蓝） */
-  --haier-primary-d:  #005aaa;   /* 辅助深蓝 */
-  --haier-blue-light: #45a0de;   /* 亮蓝 */
-  --haier-blue-tint:  #cfe4ff;   /* 轻蓝底 */
-  --haier-red:        #d30000;   /* 警示红 */
-  --haier-orange:     #fa6400;   /* 强调橙 */
-  --haier-amber:      #f7ab48;   /* 琥珀橙 */
-  --haier-text:       #111;
-  --haier-text-sub:   #444;
-  --haier-text-weak:  #888;
-  --haier-text-faint: #aaa;
-  --haier-border:     #eee;
-  --haier-border-2:   #e3e3e3;
-  --haier-bg:         #f0f1f4;   /* 区块底色 */
+  --haier-primary:    #2f6bff;   /* 品牌主色（蓝） */
+  --haier-primary-d:  #1e52e0;   /* 主色深 */
+  --haier-primary-tint:#eef3ff;  /* 主色浅底 */
+  --haier-blue-light: #5b8cff;
+  --haier-red:        #f43f5e;   /* 警示红 */
+  --haier-emerald:    #10b981;   /* 成功绿 */
+  --haier-amber:      #f5a623;   /* 琥珀橙 */
+
+  --haier-text:       #182b56;   /* 墨色主文本 */
+  --haier-text-sub:   #4a5b80;
+  --haier-text-weak:  #5b6b8c;
+  --haier-text-faint: #8593b4;
+
+  --haier-border:     rgba(24, 43, 86, 0.08);
+  --haier-border-2:   rgba(24, 43, 86, 0.14);
+  --haier-bg:         #f7f9fc;   /* 画布底色 */
   --haier-bg-card:    #fff;
-  --haier-shadow:     0 2px 6px rgba(153, 153, 153, 0.18);
-  --haier-shadow-hover: 0 6px 16px rgba(153, 153, 153, 0.3);
+
+  --haier-shadow:     0 6px 24px -8px rgba(24, 43, 86, 0.12);
+  --haier-shadow-hover: 0 14px 32px -12px rgba(24, 43, 86, 0.2);
+  --haier-radius:     16px;
+  --haier-radius-sm:  12px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -24,14 +29,24 @@
 html, body, #app { height: 100%; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB",
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial,
                "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: var(--haier-text);
   background: var(--haier-bg);
   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
 }
 
-/* 区块标题：居中 + 上方蓝色短横线（海尔风格） */
+/* ─── 卡片 ─── */
+.card {
+  border-radius: var(--haier-radius);
+  background: var(--haier-bg-card);
+  box-shadow: var(--haier-shadow);
+  border: 1px solid var(--haier-border);
+}
+.card p { margin: 0; }
+
+/* ─── 区块标题：居中 + 上方品牌蓝短横线 ─── */
 .haier-section-title {
   position: relative;
   text-align: center;
@@ -47,77 +62,147 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 34px;
-  height: 5px;
-  background: var(--haier-primary);
+  width: 28px;
+  height: 4px;
   border-radius: 2px;
+  background: var(--haier-primary);
 }
 
-/* 面包屑 */
-.haier-crumbs {
-  display: flex;
+/* ─── 胶囊标签 chip ─── */
+.chip, .haier-chip {
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 0 20px;
-  height: 44px;
+  border-radius: 9999px;
+  padding: 5px 12px;
   font-size: 12px;
-  color: var(--haier-text-sub);
-  background: var(--haier-bg);
+  font-weight: 500;
+  line-height: 1.4;
 }
-.haier-crumbs a, .haier-crumbs span {
-  color: var(--haier-text-sub);
-  text-decoration: none;
+.haier-chip {
+  border: 1px solid transparent;
+  background: var(--haier-primary-tint);
+  color: var(--haier-primary);
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s, box-shadow .2s;
 }
-.haier-crumbs a:hover { color: var(--haier-primary); }
-.haier-crumbs .sep { color: var(--haier-text-faint); }
-.haier-crumbs .cur { color: var(--haier-primary); }
+.haier-chip:hover {
+  background: #fff;
+  border-color: var(--haier-primary);
+  box-shadow: var(--haier-shadow);
+}
 
-/* 胶囊按钮（白底蓝描边，海尔 jumpBtn/queryBtn 风格） */
+/* ─── 按钮 ─── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: 9999px;
+  padding: 9px 22px;
+  border: none;
+  background: var(--haier-primary);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 12px 40px -12px rgba(47, 107, 255, 0.45);
+  transition: all .2s;
+}
+.btn-primary:hover:not(:disabled) { background: var(--haier-primary-d); }
+.btn-primary:disabled { opacity: .6; cursor: not-allowed; box-shadow: none; }
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: 9999px;
+  padding: 9px 22px;
+  border: none;
+  background: var(--haier-primary-tint);
+  color: var(--haier-primary-d);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-ghost:hover:not(:disabled) { background: #dfe9ff; }
+
+.btn-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: 9999px;
+  padding: 9px 22px;
+  border: 1px solid var(--haier-border-2);
+  background: #fff;
+  color: var(--haier-text-sub);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-line:hover:not(:disabled) { border-color: var(--haier-primary); color: var(--haier-primary); }
+
+/* ─── 实心主按钮（兼容旧类名） ─── */
+.haier-solid-btn { composes: btn-primary; }
 .haier-pill-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0 18px;
-  height: 30px;
-  border: 1px solid var(--haier-primary);
-  border-radius: 999px;
+  height: 32px;
+  border: 1px solid var(--haier-border-2);
+  border-radius: 9999px;
   background: #fff;
-  color: var(--haier-primary);
+  color: var(--haier-text-sub);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .2s;
+}
+.haier-pill-btn:hover { border-color: var(--haier-primary); color: var(--haier-primary); }
+
+/* ─── 输入框 ─── */
+.input {
+  width: 100%;
+  border-radius: var(--haier-radius-sm);
+  border: 1px solid var(--haier-border-2);
+  background: #fff;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--haier-text);
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+.input:focus { border-color: var(--haier-primary); box-shadow: 0 0 0 3px rgba(47, 107, 255, 0.12); }
+.input::placeholder { color: var(--haier-text-faint); }
+
+.label {
+  display: block;
+  margin-bottom: 6px;
   font-size: 12px;
-  cursor: pointer;
-  transition: box-shadow .2s;
+  font-weight: 500;
+  color: var(--haier-text-sub);
 }
-.haier-pill-btn:hover { box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2); }
 
-/* 实心主按钮（海尔 bluebtn 风格） */
-.haier-solid-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 22px;
-  height: 34px;
-  border: none;
-  border-radius: 6px;
-  background: var(--haier-primary);
-  color: #fff;
-  font-size: 13px;
-  cursor: pointer;
-  transition: background .2s, box-shadow .2s;
-}
-.haier-solid-btn:hover:not(:disabled) { background: var(--haier-primary-d); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); }
-.haier-solid-btn:disabled { background: var(--haier-blue-tint); color: #fff; cursor: not-allowed; }
+/* ─── 细滚动条 ─── */
+.scroll-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: rgba(24, 43, 86, 0.16); border-radius: 3px; }
+.scroll-thin::-webkit-scrollbar-thumb:hover { background: rgba(24, 43, 86, 0.3); }
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
 
-/* 快捷词胶囊（浅蓝底 + 蓝字） */
-.haier-chip {
-  display: inline-flex;
-  align-items: center;
-  padding: 7px 16px;
-  border: 1px solid var(--haier-blue-tint);
-  border-radius: 999px;
-  background: var(--haier-blue-tint);
-  color: var(--haier-primary);
-  font-size: 13px;
-  cursor: pointer;
-  transition: background .2s, color .2s, box-shadow .2s;
+/* ─── 状态点 ─── */
+.dot-online {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--haier-emerald);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
 }
-.haier-chip:hover { background: #fff; color: var(--haier-primary); box-shadow: var(--haier-shadow); }

@@ -5,6 +5,7 @@ POST /api/chat         - 普通对话（一次性返回）
 POST /api/chat/stream  - 流式对话（SSE）
 """
 import json
+import os
 from datetime import datetime
 
 from fastapi import APIRouter
@@ -14,8 +15,11 @@ from pydantic import BaseModel
 from app.chains.basic_chat import (
     customer_service_chain,
     customer_service_stream_chain,
+    build_customer_service_chain,
+    build_customer_service_stream_chain,
     format_history,
 )
+from app.models.deepseek import MODEL_NAME
 
 router = APIRouter()
 
@@ -28,6 +32,7 @@ class ChatMessage(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     history: list[ChatMessage] = []
+    model: dict | None = None
 
 
 def _now():
@@ -37,7 +42,12 @@ def _now():
 # ─── 健康检查 ────────────────────────────────────────────────────
 @router.get("/health")
 async def health():
-    return {"status": "ok", "timestamp": datetime.utcnow().isoformat()}
+    return {
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "model": MODEL_NAME,
+        "model_display": (os.getenv("MODEL_DISPLAY") or "").strip() or MODEL_NAME,
+    }
 
 
 # ─── 普通对话接口 ────────────────────────────────────────────────
@@ -47,14 +57,19 @@ async def chat(req: ChatRequest):
         return JSONResponse(status_code=400, content={"error": "message 字段不能为空"})
 
     try:
-        response = await customer_service_chain.ainvoke(
+        chain = (
+            build_customer_service_chain(req.model)
+            if req.model
+            else customer_service_chain
+        )
+        response = await chain.ainvoke(
             {
                 "user_input": req.message,
                 "chat_history": format_history([m.model_dump() for m in req.history]),
                 "current_time": _now(),
             }
         )
-        return {"content": response}
+        return {"content": response, "model": req.model.get("model") or MODEL_NAME if req.model else MODEL_NAME}
     except Exception as error:
         print(f"[Chat Error] {error}")
         return JSONResponse(status_code=500, content={"error": "服务暂时不可用，请稍后重试"})
@@ -68,7 +83,12 @@ async def chat_stream(req: ChatRequest):
 
     async def event_generator():
         try:
-            async for chunk in customer_service_stream_chain.astream(
+            chain = (
+                build_customer_service_stream_chain(req.model)
+                if req.model
+                else customer_service_stream_chain
+            )
+            async for chunk in chain.astream(
                 {
                     "user_input": req.message,
                     "chat_history": format_history([m.model_dump() for m in req.history]),

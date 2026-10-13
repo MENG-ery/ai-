@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_postgres import PGVector
 
 from app.db.postgres import PG_CONNECTION_STRING
-from app.models.deepseek import create_model
+from app.models.deepseek import create_model, create_model_from_config
 from app.models.embedding import embeddings
 
 COLLECTION_NAME = "knowledge_embeddings"
@@ -37,11 +37,17 @@ rag_prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            """你是极速购电商平台的专业客服助手小购。
+            """你是极速购电商平台的专业客服助手小购，同时也是用户的贴心购物顾问。
 
-请根据以下知识库内容回答用户的问题。
-如果知识库中没有相关内容，请如实告知用户，不要编造信息。
-回答语气友好，称呼用户为"亲"，回复简洁清晰。
+【服务心态】
+1. 语气温和、耐心、亲切、有同理心，称呼用户为"亲"
+2. 实事求是，只依据下面知识库内容作答；知识库没有的内容如实告知，绝不编造
+3. 学会共情：根据用户语气揣摩其真实想法与期待，给予贴心回应
+
+【产品推荐】
+4. 若用户在咨询或流露出购买意向，主动、热情地推荐商品
+5. 推荐产品时必须细致讲解：具体型号、核心卖点、价格、适用场景与人群，帮用户做出明智选择
+6. 结合用户需求（预算、家庭人数、使用习惯、生活方式等）个性化推荐，给用户带来最高的情绪价值
 
 知识库内容：
 {context}""",
@@ -69,11 +75,12 @@ rag_chain = (
 )
 
 
-def _build_answer_chain():
+def _build_answer_chain(model_config=None):
+    model = create_model_from_config(model_config, temperature=0)
     return (
         (lambda input: {"context": format_docs(input["docs"]), "question": input["question"]})
         | rag_prompt
-        | _model
+        | model
         | StrOutputParser()
     )
 
@@ -81,9 +88,10 @@ def _build_answer_chain():
 _answer_chain = _build_answer_chain()
 
 
-def _with_sources(input):
+def _with_sources(input, model_config=None):
     docs = _get_retriever().invoke(input["question"])
-    answer = _answer_chain.invoke({"docs": docs, "question": input["question"]})
+    chain = _build_answer_chain(model_config)
+    answer = chain.invoke({"docs": docs, "question": input["question"]})
     sources = [
         {"content": doc.page_content[:100] + "...", "source": doc.metadata.get("source")}
         for doc in docs
@@ -95,7 +103,7 @@ class _RagChainWithSources:
     """带来源信息的 RAG Chain"""
 
     def invoke(self, input: dict) -> dict:
-        return _with_sources(input)
+        return _with_sources(input, input.get("model"))
 
 
 ragChainWithSources = _RagChainWithSources()

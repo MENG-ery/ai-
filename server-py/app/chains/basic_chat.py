@@ -5,7 +5,7 @@ Chain 链式调用
 """
 from langchain_core.output_parsers import StrOutputParser
 
-from app.models.deepseek import create_model
+from app.models.deepseek import create_model, create_model_from_config
 from app.prompts.customer_service import customer_service_prompt, general_chat_prompt
 
 # ─── 极速购客服 Chain（非流式）───────────────────────────────────
@@ -21,6 +21,18 @@ customer_service_stream_chain = customer_service_prompt | _streaming_model | _pa
 
 # ─── 通用对话 Chain（演示用）────────────────────────────────────
 general_chat_chain = general_chat_prompt | _model | _parser
+
+
+def build_customer_service_chain(model_config=None):
+    """按前端传入的大模型配置动态构建客服链（无配置时回落默认模型）"""
+    m = create_model_from_config(model_config, temperature=0.5)
+    return customer_service_prompt | m | _parser
+
+
+def build_customer_service_stream_chain(model_config=None):
+    """按前端传入的大模型配置动态构建流式客服链"""
+    m = create_model_from_config(model_config, temperature=0.5, streaming=True)
+    return customer_service_prompt | m | _parser
 
 
 def format_history(history=None):

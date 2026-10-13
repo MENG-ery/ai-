@@ -1,5 +1,6 @@
 // client/src/composables/useRag.js
 import { ref } from 'vue';
+import { useModel } from './useModel.js';
 
 const API_BASE = 'http://localhost:3000/api';
 
@@ -7,6 +8,8 @@ export function useRag() {
   const messages = ref([]);
   const loading  = ref(false);
   const error    = ref('');
+
+  const { requestModel } = useModel();
 
   const ask = async (question, scrollCallback) => {
     if (!question.trim() || loading.value) return;
@@ -24,7 +27,7 @@ export function useRag() {
       const response = await fetch(`${API_BASE}/rag/query`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
-        body:    JSON.stringify({ question }),
+        body:    JSON.stringify({ question, model: requestModel() }),
       });
 
       const reader  = response.body.getReader();

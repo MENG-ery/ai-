@@ -1,0 +1,702 @@
+[
+  {
+    "id": 6519,
+    "name": "ASKO雅士高嵌入式洗碗机16套大容量欧洲原装进口涡流烘干全自动智能杀菌家用DTAU7SU",
+    "model": "DTAU7SU",
+    "price": 14800.0,
+    "image": "https://img.shop.hisense.com/2025/09/26/3142e719-422b-49fe-b4fc-f7b4a2b5ddd5.jpg"
+  },
+  {
+    "id": 3645,
+    "name": "海信【BD/BC-209FBKJ/HC】209升/一级能效/PRS强效制冷/家商两用",
+    "model": "BD/BC-209FBKJ/HC",
+    "price": 1999.0,
+    "image": "https://img.shop.hisense.com/2020/12/16/9c0245f9-7ead-43a6-908a-4f965b544993.png"
+  },
+  {
+    "id": 3966,
+    "name": "海信【80L9F】80英寸/纯净三色光源/107%超广色域/Air超轻屏/3+128G大内存激光电视",
+    "model": "80L9F",
+    "price": 13999.0,
+    "image": "https://img.shop.hisense.com/2022/07/12/7c8b47a5-4f21-4156-a823-83b370759ea9.png"
+  },
+  {
+    "id": 3990,
+    "name": "海信【JC-130ZKJ/HC】130升/一级能效/独立微冻空间/电脑精细控温",
+    "model": "JC-130ZKJ/HC",
+    "price": 2499.0,
+    "image": "https://img.shop.hisense.com/2020/12/16/406d01b6-a25e-4e68-ab20-1aee3bf5ffb6.png"
+  },
+  {
+    "id": 4304,
+    "name": "海信【DHA50A1】新风滤网/点击查看适配机型",
+    "model": "DHA50A1",
+    "price": 99.0,
+    "image": "https://img.shop.hisense.com/2024/07/12/c7092e44-d3e8-46b3-bf07-19c0a66e39be.png"
+  },
+  {
+    "id": 4308,
+    "name": "海信【DHA150A】新风滤网/点击查看适配机型",
+    "model": "DHA150A",
+    "price": 299.0,
+    "image": "https://img.shop.hisense.com/2024/07/12/c20b8486-3072-4802-9e0a-e66dcd8c5a91.png"
+  },
+  {
+    "id": 4434,
+    "name": "海信【BCD-163NC】163升/双温/冷冻冷藏黄金比/高效稳定制冷",
+    "model": "BCD-163NC",
+    "price": 1399.0,
+    "image": "https://img.shop.hisense.com/2021/07/02/303a5eb8-e93c-4d83-aa2f-d399e510bb89.png"
+  },
+  {
+    "id": 4453,
+    "name": "容声【BCD-275D/HC】275升/二级能效/顶开门/首创B型门封/速冷低噪",
+    "model": "BCD-275D/HC",
+    "price": 1869.0,
+    "image": "https://img.shop.hisense.com/2024/09/14/8fb4cc0e-ee14-4145-afd2-c1ddced5a856.jpg"
+  },
+  {
+    "id": 4481,
+    "name": "海信【KFR-72LW/G888J-X1】3匹/一级能效/双模变频/智能双清洁/空调柜机",
+    "model": "KFR-72LW/G888J-X1",
+    "price": 8799.0,
+    "image": "https://img.shop.hisense.com/2023/08/04/4fb29d92-93ec-4cb5-93b7-9459bd38ff32.jpg"
+  },
+  {
+    "id": 4492,
+    "name": "【海信】222升家用冷藏冷冻小型租房宿舍餐饮节能电冰箱【BCD-222WTDG/A】",
+    "model": "BCD-222WTDG/A",
+    "price": 2499.0,
+    "image": "https://img.shop.hisense.com/2026/01/16/4a164023-a271-4a1a-8d5f-8145d0671266.jpg"
+  },
+  {
+    "id": 5231,
+    "name": "海信【55H6K】55英寸/酒店专属定制/全能端口/AI远距离语音/2+16GB",
+    "model": "55H6K",
+    "price": 6999.0,
+    "image": "https://img.shop.hisense.com/2023/10/11/0b5c12a9-5c01-4f65-a1ee-5f889a214b85.png"
+  },
+  {
+    "id": 5260,
+    "name": "【BCD-531WRS1HPC】容声冰箱",
+    "model": "BCD-531WRS1HPC",
+    "price": 3999.0,
+    "image": "https://img.shop.hisense.com/2023/10/27/18514d82-a872-40e1-8120-e423cc11942d.jpg"
+  },
+  {
+    "id": 5263,
+    "name": "【XQB100-V909D】洗衣机",
+    "model": "XQB100-V909D",
+    "price": 4599.0,
+    "image": "https://img.shop.hisense.com/2023/10/27/0e7fa2f8-f518-4c30-971f-34eb2596df08.png"
+  },
+  {
+    "id": 5272,
+    "name": "海信【XQB100-V359D】旋瀑洗4.0科技/活水洗科技/DDM变频电机",
+    "model": "XQB100-V359D",
+    "price": 2299.0,
+    "image": "https://img.shop.hisense.com/2024/09/15/ebc0e5b9-d7fe-4de8-a55e-74543e308907.jpg"
+  },
+  {
+    "id": 5286,
+    "name": "海信【75A52K】75英寸/双120Hz刷新/2+64GB/130%高色域",
+    "model": "75A52K",
+    "price": 6999.0,
+    "image": "https://img.shop.hisense.com/2023/11/13/258196c8-7c67-40b2-a7e1-c222e34970b6.png"
+  },
+  {
+    "id": 5287,
+    "name": "海信【85A52K】85英寸/双120Hz刷新/3+64GB/130%高色域/2.1声道低音炮",
+    "model": "85A52K",
+    "price": 9999.0,
+    "image": "https://img.shop.hisense.com/2023/11/13/02a3c426-b8fe-4480-b690-0d9a4d754c12.png"
+  },
+  {
+    "id": 5291,
+    "name": "海信【85A55K】85英寸/240Hz疾速刷新/4+64GB/130%高色域/2.1声道低音",
+    "model": "85A55K",
+    "price": 11999.0,
+    "image": "https://img.shop.hisense.com/2023/11/13/34f3b85e-5bba-4988-aec7-be6bc356d697.png"
+  },
+  {
+    "id": 5376,
+    "name": "海信【75A51N】75英寸/U+超画质引擎/120Hz疾速刷新/2+64GB/4K HDR高分辨率/远场语音",
+    "model": "75A51N",
+    "price": 5499.0,
+    "image": "https://img.shop.hisense.com/2024/03/15/2596223e-6e71-4b8a-923b-436d736e5566.png"
+  },
+  {
+    "id": 5399,
+    "name": "海信【KFRd-72FW/C3AA1】独立新风系统/一键AI健康/防漏水双重保护/璀璨C3A中央空调",
+    "model": "KFRd-72FW/C3AA1",
+    "price": 7399.0,
+    "image": "https://img.shop.hisense.com/2024/07/12/e04946d0-d851-48c6-93a5-2366ee4f5652.png"
+  },
+  {
+    "id": 5424,
+    "name": "JZT-B300G",
+    "model": "DS11H+DB32(V2)",
+    "price": 499.0,
+    "image": "https://img.shop.hisense.com/2026/06/10/a3e4c33a-bbb8-44b0-88bb-0e7d50f04ba9.jpg"
+  },
+  {
+    "id": 5448,
+    "name": "【WQ15-W8】三层喷淋臂/中央环喷加强洗/增压分层洗技术/72℃消毒洗",
+    "model": "WQ15-W8",
+    "price": 6599.0,
+    "image": "https://img.shop.hisense.com/2024/05/10/1b5f4355-3999-49ee-acef-0cceb8e6e087.jpg"
+  },
+  {
+    "id": 5449,
+    "name": "【CXW-200-HT315】460mm纤薄机身 爆炒风量23m³/min 最大静压450Pa 挥手智控",
+    "model": "CXW-200-HT315",
+    "price": 1599.0,
+    "image": "https://img.shop.hisense.com/2024/05/10/d640ba79-4848-4d19-b720-6d5bca525fe4.jpg"
+  },
+  {
+    "id": 5466,
+    "name": "价保双11 KFR-50GW/QY1-X1 科龙空调静省电QY 海信出品 大2匹 空调挂机 新一级变频节能省电 冷暖家用空调 以旧换新 大2匹一级能效50QY 空调热卖",
+    "model": "KFR-50GW/QY1-X1(1P1H)",
+    "price": 2822.0,
+    "image": "https://img.shop.hisense.com/2026/10/08/53e9be35-6fa3-4e3a-be25-d60b62a33ebc.jpg"
+  },
+  {
+    "id": 5484,
+    "name": "【DC60-Y506i】变频速热/一级能效/3200W变频/10倍增容/第三代巴氏灭菌/WiFi智控",
+    "model": "DC60-Y506i",
+    "price": 1599.0,
+    "image": "https://img.shop.hisense.com/2024/05/15/56dff14a-e9a8-46d7-b293-8d6fe8f19d16.png"
+  },
+  {
+    "id": 5500,
+    "name": "【JSQ30-16W8】下置风机/全屋零冷水/增压洗浴/健康用水",
+    "model": "JSQ30-16W8",
+    "price": 2999.0,
+    "image": "https://img.shop.hisense.com/2024/05/15/0f5f0ce3-97d3-4525-a7c3-799c67afa7e3.png"
+  },
+  {
+    "id": 5506,
+    "name": "【JZY-B308】可调底座/五重防爆底座/搪瓷避火锅架",
+    "model": "JZY-B308",
+    "price": 799.0,
+    "image": "https://img.shop.hisense.com/2025/03/12/9f8fac4e-ebc6-4d62-8205-894baa70db63.jpg"
+  },
+  {
+    "id": 5516,
+    "name": "海信【KFR-35GW/A230U-X1】自清洁/大风量双导板/智能AI/左右摆风/16dB静音/空调挂机",
+    "model": "KFR-35GW/A230U-X1(1X18)",
+    "price": 2799.0,
+    "image": "https://img.shop.hisense.com/2024/11/29/46624588-e184-400c-aa50-15914b5824a8.jpg"
+  },
+  {
+    "id": 5569,
+    "name": "【海信】PDM+净味保鲜冰箱/360°立体环绕风/360°矢量变频技术【BCD-557WTGVBPS1波光银】",
+    "model": "HZ.冰箱.BCD-557WTGVBPS1-JA51.波光银",
+    "price": 3999.0,
+    "image": "https://img.shop.hisense.com/2026/02/02/e7ffa9e7-1dda-44aa-a964-a7c9ed7679d1.jpg"
+  },
+  {
+    "id": 5588,
+    "name": "海信【WD100I2】洗净比1.15/行业直驱最薄洗烘一体机/活水洗科技",
+    "model": "WD100I2",
+    "price": 3299.0,
+    "image": "https://img.shop.hisense.com/2026/01/08/e5cb8d6c-8498-4c62-bece-b4e7f6a7fe40.jpg"
+  },
+  {
+    "id": 5590,
+    "name": "海信【WD100I5】洗净比1.25/聚好烘/离子蒸烫",
+    "model": "WD100I5",
+    "price": 7299.0,
+    "image": "https://img.shop.hisense.com/2026/01/08/fdf7c532-2113-4294-a9d7-1daae352797a.jpg"
+  },
+  {
+    "id": 5613,
+    "name": "海信【65U66N】65英寸/4+64GB/130%高色域/高刷 新144HZ/独立低音炮/ULED画质海信电视",
+    "model": "65U66N",
+    "price": 8999.0,
+    "image": "https://img.shop.hisense.com/2024/06/17/2c981589-9110-4b56-ad1f-2f0f464d7844.png"
+  },
+  {
+    "id": 4862,
+    "name": "海信【BD/BC-508ZFM/HX】508升/超大容量/-36℃低温速冻/PCM内胆/大冷冻力",
+    "model": "BD/BC-508ZFM/HX",
+    "price": 2999.0,
+    "image": "https://img.shop.hisense.com/2022/08/23/b0a94739-5872-4b36-a72c-0340a4bd2f9e.png"
+  },
+  {
+    "id": 4865,
+    "name": "海信【55H55E】55英寸 超高清4K 智能液晶平板",
+    "model": "55H55E",
+    "price": 5999.0,
+    "image": "https://img.shop.hisense.com/2022/08/25/c82c2c2d-399c-4f04-ad78-a6dc80ee9ff6.jpg"
+  },
+  {
+    "id": 4942,
+    "name": "海信【BD-135WZKJ/HX】135升/侧开式/景泰云釉面板/-40℃储鲜/全域离子杀菌/风冷无霜/星钻微风道",
+    "model": "BD-135WZKJ/HX",
+    "price": 2099.0,
+    "image": "https://img.shop.hisense.com/2022/10/25/ca3ee431-265d-407a-b0dd-dc67bb49df67.png"
+  },
+  {
+    "id": 4944,
+    "name": "容声【BD/BC-310EAL/HP】310升/单温/-42℃储鲜/PCM内胆易清洁/一级能效节能",
+    "model": "BD/BC-310EAL/HP",
+    "price": 1999.0,
+    "image": "https://img.shop.hisense.com/2022/10/25/5bc454e7-6d95-41ce-bca3-08f02d44bda4.png"
+  },
+  {
+    "id": 4975,
+    "name": "容声【BCD-186EBA/HC】186升/双温/高效减霜/小巧不占地/一级能效/4DS速冷",
+    "model": "BCD-186EBA/HC",
+    "price": 1649.0,
+    "image": "https://img.shop.hisense.com/2022/11/25/c1e3ea53-62aa-4160-a302-a1415501d1f1.png"
+  },
+  {
+    "id": 4985,
+    "name": "价保双11 KFR-26GW/E370-X1 海信（Hisense）大1匹E370 AI省电 自然风大风量不直吹 新一级能效 空调挂机 大1匹 空调热卖",
+    "model": "KFR-26GW/E370-X1(1V48)",
+    "price": 1763.0,
+    "image": "https://img.shop.hisense.com/2026/10/08/34490fc0-08c3-4245-8462-1f1c8eebaf17.png"
+  },
+  {
+    "id": 5632,
+    "name": "【27G6K】海信27英寸 2K 240Hz 1msGTG 防撕裂 104%DCI-P3广色域 FastIPS 低蓝光不闪屏 游戏电竞 显示器",
+    "model": "27G6K",
+    "price": 999.0,
+    "image": "https://img.shop.hisense.com/2025/09/11/7aa68b21-155b-4ef7-99d2-3065b1e5cfa8.png"
+  },
+  {
+    "id": 5654,
+    "name": "KFR-26GW/G117U-X1",
+    "model": "KFR-26GW/G117U-X1(1V48)",
+    "price": 3299.0,
+    "image": "https://img.shop.hisense.com/2024/08/09/04ddc80d-d145-41c7-8c2f-142dd5b33a3c.png"
+  },
+  {
+    "id": 5720,
+    "name": "【海信】嵌入式冰箱除菌净味335升小户型冰箱一级能效超薄上下两门家用变频冰箱【BCD-335WTDGVBPIS1】",
+    "model": "BCD-335WTDGVBPIS1",
+    "price": 3999.0,
+    "image": "https://img.shop.hisense.com/2026/01/16/96876e10-27ab-4758-9dd6-761e6643c5f2.jpg"
+  },
+  {
+    "id": 5748,
+    "name": "价保双11 HB90DC30 海信（Hisense）全自动波轮洗衣机9KG小型 家用租房宿舍 金属机身一级能效",
+    "model": "HB90DC30",
+    "price": 675.0,
+    "image": "https://img.shop.hisense.com/2026/09/02/6c97fd82-8bc7-4189-a11e-406b8ef9770b.png"
+  },
+  {
+    "id": 4702,
+    "name": "Hisense空调/KFR-35GW/A150U-X1/舒适自然风/易拆洗滤网",
+    "model": "KFR-35GW/A150U-X1",
+    "price": 1899.0,
+    "image": "https://xtw.hisense.com/productImages/1200101/17837415150/src/17837415150_2.jpg"
+  },
+  {
+    "id": 4741,
+    "name": "海信激光电视  L9H 80英寸三色激光家庭影院  大屏护眼 电影院同源技术 超薄4K超高清巨幕",
+    "model": "80L9H",
+    "price": 11999.0,
+    "image": "https://img.shop.hisense.com/2024/07/05/0145d6d9-1faa-4e1f-a457-a71f69c6120e.jpg"
+  },
+  {
+    "id": 5782,
+    "name": "海信【DC50-Y311S】1+1双防安全无忧/活化净化/2100W速热核心动力4倍增容大水量/下置式排污口",
+    "model": "DC50-Y311S",
+    "price": 799.0,
+    "image": "https://img.shop.hisense.com/2024/09/14/3da91e9b-f137-4505-905d-156adb3914ed.jpg"
+  },
+  {
+    "id": 5789,
+    "name": "海信【85A5N】85英寸/U+超画质引擎PRO/240Hz疾速刷新/4+64GB/130%高色域/双频WIFI蓝牙",
+    "model": "85A5N",
+    "price": 8399.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/01da450e-7faa-4b30-a05c-a3d0472363ef.jpg"
+  },
+  {
+    "id": 5808,
+    "name": "容声【BD/BC-145ZEBAL/RX】容声冷柜/1级能效/零下40℃深冷速冻/电脑精确控温/CCA除菌净化系统/高效减霜系统/PCM内胆设计/独立精储盒双层设计/墨韵灰与雀青瑜高级配色",
+    "model": "BD/BC-145ZEBAL/RX",
+    "price": 1599.0,
+    "image": "https://img.shop.hisense.com/2025/03/11/b3a01360-addf-4394-803f-6a7bdf6970e6.jpg"
+  },
+  {
+    "id": 5810,
+    "name": "海信【WG100I5】活水洗3.0科技/直驱超薄嵌入/洗净比1.259",
+    "model": "WG100I5",
+    "price": 4999.0,
+    "image": "https://img.shop.hisense.com/2024/09/15/b3ab38bc-9772-450f-aab3-6d04d860990f.jpg"
+  },
+  {
+    "id": 5854,
+    "name": "海信空调KFR-26GW/G200U-X1",
+    "model": "KFR-26GW/G200U-X1(1X26)",
+    "price": 3699.0,
+    "image": "https://img.shop.hisense.com/2024/09/18/fc06e9a9-f783-4450-8c26-d412815d5ad7.png"
+  },
+  {
+    "id": 5088,
+    "name": "海信【65U7K】65英寸ULED X 16bits控光/300级分区/240Hz疾速刷新/黑曜屏电视",
+    "model": "65U7K",
+    "price": 7999.0,
+    "image": "https://img.shop.hisense.com/2023/04/21/ebd3d70b-cc41-471b-aa8f-87af08eb0edf.png"
+  },
+  {
+    "id": 5117,
+    "name": "海信【75U6K】75英寸/200背光分区/4K 144Hz原生屏/信芯X画质芯片/杜比视界·全景声/4+64GB/全面屏智能液晶电视",
+    "model": "75U6K",
+    "price": 10999.0,
+    "image": "https://img.shop.hisense.com/2023/05/23/121529bd-ce42-4969-8544-5d12f350cd77.png"
+  },
+  {
+    "id": 5118,
+    "name": "海信【85U6K】85英寸/200背光分区/4K 144Hz原生屏/信芯X画质芯片/杜比视界·全景声/4+64GB/全面屏智能液晶电视",
+    "model": "85U6K",
+    "price": 15999.0,
+    "image": "https://img.shop.hisense.com/2023/05/23/eb889494-2659-4dc5-9c4d-4c6f4ef1c976.png"
+  },
+  {
+    "id": 5120,
+    "name": "海信【CXW-230-HQ708iS】4档调速/负离子空气净化/手势控制/ WIFI智控/延时关机/璀璨油烟机",
+    "model": "CXW-230-HQ708IS",
+    "price": 5599.0,
+    "image": "https://img.shop.hisense.com/2024/07/05/4984b022-1330-4a3a-936d-d72e57d56cde.png"
+  },
+  {
+    "id": 6038,
+    "name": "海信【WB120C50】活水洗科技/12kg大容量/DDM变频电机",
+    "model": "HZ.洗衣机.WB120C50.钛晶灰",
+    "price": 1899.0,
+    "image": "https://img.shop.hisense.com/2026/01/08/326e02f3-0d70-43ff-a63f-207aa0839841.jpg"
+  },
+  {
+    "id": 6049,
+    "name": "海信空调KFR-35GW/G300U-X1",
+    "model": "KFR-35GW/G300U-X1(1X31)",
+    "price": 4199.0,
+    "image": "https://img.shop.hisense.com/2025/01/22/f66e2999-ce60-47f2-8fe8-a615ed319dff.png"
+  },
+  {
+    "id": 6052,
+    "name": "价保双11 BCD-330WNK3DP 海信冰箱四开门法式冰箱一级能效家用小型一级节能无霜冰箱家电国家补贴20%以旧换新",
+    "model": "HZ.冰箱.BCD-330WNK3DP-EP51.冰釉白",
+    "price": 1799.0,
+    "image": "https://img.shop.hisense.com/2026/09/04/f6b4fcf4-4385-41d3-a3cc-2ed3d3958d43.png"
+  },
+  {
+    "id": 6067,
+    "name": "价保双11 BCD-325WD18MP 墨韵灰 容声325升法式多门四开门双开门电冰箱家用大容量一级能效节能风冷无霜国家补贴",
+    "model": "RZ.冰箱.BCD-325WD18MP-TR51.墨韵灰",
+    "price": 1999.0,
+    "image": "https://img.shop.hisense.com/2026/09/04/fd44efae-342c-45a1-b772-66f3b5ae0376.jpg"
+  },
+  {
+    "id": 6098,
+    "name": "价保双11 海信电视55E3Q 55英寸 U+超画质引擎 DeepSeek AI智能高刷 MEMC防抖 E3ND升级款",
+    "model": "55E3Q",
+    "price": 2179.0,
+    "image": "https://img.shop.hisense.com/2026/09/23/8dca5aea-a426-4d75-afc9-04bf91a8a0d7.jpg"
+  },
+  {
+    "id": 6126,
+    "name": "【55D3KH】55英吋/U画质引擎/2+32GB大存储/MEMC运动防抖/高清全能投屏",
+    "model": "55D3KH",
+    "price": 2299.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/bf24ba7b-9c11-4ad2-ab37-71772abe92a5.jpg"
+  },
+  {
+    "id": 6226,
+    "name": "海信【55H5K】2+32/节能/环保/支持酒店主页定制/开机视频定制/频道编辑/开放sdk生态接口",
+    "model": "55H5K",
+    "price": 6599.0,
+    "image": "https://img.shop.hisense.com/2025/04/21/6a8f7972-9dae-4698-99c4-19888fc34ba5.png"
+  },
+  {
+    "id": 6242,
+    "name": "Hisense空调/KFR-50LW/X500M-X1",
+    "model": "KFR-50LW/X500M-X1",
+    "price": 4799.0,
+    "image": "https://xtw.hisense.com/xtwprd-bt1/productImages/1200101/17838435001/energyLabel/17838435001_energyLabel_1784277602906.png"
+  },
+  {
+    "id": 6278,
+    "name": "科龙中央空调【KMV-140FW-Z2 一拖四】20分贝静音低噪/-20~60℃超宽温运行/内外机小巧/6重清洁/品质部件/声控远控随心控/6匹 三居室 适用面积90-120㎡",
+    "model": "KMV-140FW-Z2 一拖四",
+    "price": 20999.0,
+    "image": "https://img.shop.hisense.com/2025/05/22/f01778e6-e5ba-4e5e-8d8f-c9b325179f74.jpg"
+  },
+  {
+    "id": 6191,
+    "name": "海信【65XW5F】65英寸/AI会议智能体/免驱4K投屏/0延迟共创书写/双电脑架构/安卓双屏视频会议平板（单机+白色传屏宝）",
+    "model": "65XW5F+HT002-A",
+    "price": 7199.0,
+    "image": "https://img.shop.hisense.com/2025/09/11/68b7d0f0-e3b4-4442-b76f-30a35bd68df8.png"
+  },
+  {
+    "id": 6192,
+    "name": "海信【75XW5F】75英寸/AI会议智能体/免驱4K投屏/0延迟共创书写/双电脑架构/安卓双屏视频会议平板（单机+白色传屏宝）",
+    "model": "75XW5F+HT002-A",
+    "price": 11399.0,
+    "image": "https://img.shop.hisense.com/2025/09/12/7094ddfd-9345-4720-8bc7-7776612ad520.png"
+  },
+  {
+    "id": 6194,
+    "name": "【75A7NH】75英吋/整机2,99cm贴墙0.3mm双面薄/270°环绕音/240Hz疾速刷新/氛围生活",
+    "model": "75A7NH",
+    "price": 7999.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/1cef098e-3591-4eae-8e44-33ac316096a5.jpg"
+  },
+  {
+    "id": 6387,
+    "name": "价保双11 KFR-50LW/QS1-X1科龙空调静省电QS 大2匹 海信出品 新一级能效 变频冷暖除湿 立式空调柜机海信出品 以旧换新 大2匹一级能效50QS 空调热卖",
+    "model": "KFR-50LW/QS1-X1(1X23)",
+    "price": 3293.0,
+    "image": "https://img.shop.hisense.com/2026/10/08/8bab31e0-3a71-4a8b-b1d2-722e7f25c0cb.jpg"
+  },
+  {
+    "id": 6394,
+    "name": "海信电视 75U65Q 75英寸 U+Mini LED 超画质电视",
+    "model": "75U65Q",
+    "price": 9799.0,
+    "image": "https://img.shop.hisense.com/2025/07/23/31d743e0-317f-41f2-a3f9-6413bf809070.jpg"
+  },
+  {
+    "id": 6395,
+    "name": "海信电视 85U65Q 85英寸 U+Mini LED 超画质电视",
+    "model": "85U65Q",
+    "price": 12599.0,
+    "image": "https://img.shop.hisense.com/2025/07/23/8ebf20bb-a3a6-4c85-88bc-d87dcf99b6a1.jpg"
+  },
+  {
+    "id": 6402,
+    "name": "海信【85U7Q】85英寸/信芯®AI画质芯片H7/黑曜屏 Pro/300Hz系统级高刷/4.1.2帝瓦雷影院音响/46mm超薄壁画设计【XX】",
+    "model": "85U7Q",
+    "price": 14499.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/cb61aca3-1c81-47bc-bd72-5bc7267f52d7.jpg"
+  },
+  {
+    "id": 6334,
+    "name": "【海信】璀璨501U6真空头等舱冰箱智能制冰橱柜一体嵌入式法式多门冰箱变频家用双系统【TR-501U6FZIQA】",
+    "model": "HZ.冰箱.TR-501U6FZIQA-LL51.星瑾",
+    "price": 12999.0,
+    "image": "https://img.shop.hisense.com/2026/01/21/4383560e-6820-4fd7-bf2a-1cf8cd8bb4b5.jpg"
+  },
+  {
+    "id": 6338,
+    "name": "Hisense电视/85A50Q/DCI -P3高色域/2.2声道立体声",
+    "model": "85A50Q",
+    "price": 7299.0,
+    "image": "https://xtw.hisense.com/xtwprd-bt1/productImages/1100101/17838825210/src/17838825210_5.jpg"
+  },
+  {
+    "id": 6342,
+    "name": "【85D30QD】144Hz高刷/95%DCI-P3电影级色域/智能天线阵列WiFi 6/杜比全景声音响",
+    "model": "85D30QD",
+    "price": 6999.0,
+    "image": "https://img.shop.hisense.com/2025/06/13/d417f7a3-a322-48eb-9c67-768984595fa6.jpg"
+  },
+  {
+    "id": 6343,
+    "name": "【75D30QD】144Hz高刷/U+超画质引擎/DTS V-X音效/智能天线阵列WiFi 6",
+    "model": "75D30QD",
+    "price": 4399.0,
+    "image": "https://img.shop.hisense.com/2025/06/13/101abe04-350b-458d-8d4c-f8be46c006e6.jpg"
+  },
+  {
+    "id": 6348,
+    "name": "Hisense洗衣机/WF100E6Q曜石灰",
+    "model": "WF100E6Q曜石灰",
+    "price": 5999.0,
+    "image": "https://xtw.hisense.com/xtwprd-bt1/productImages/1310101/17838853241/src/17838853241_17.jpg"
+  },
+  {
+    "id": 6354,
+    "name": "海信【WG100R6】意式复古风/活水洗科技3.0/1.259高洗净比",
+    "model": "HZ.洗衣机.WG100R6.罗马绿",
+    "price": 6299.0,
+    "image": "https://img.shop.hisense.com/2025/06/19/450a4105-0581-4160-903f-6907d17ca4cf.jpg"
+  },
+  {
+    "id": 6363,
+    "name": "【容声】505升/WILL养鲜/平嵌冰箱/十字对开多门/家用大容量冰箱/双系统/变频/一级节能冰箱【BCD-505W60CZGAK玄墨锦】",
+    "model": "RZ.冰箱.BCD-505W60CZGAK-LG51.玄墨锦",
+    "price": 10999.0,
+    "image": "https://img.shop.hisense.com/2026/07/21/704a6ebf-b55c-48c2-a248-ab7a55ed3562.jpg"
+  },
+  {
+    "id": 6365,
+    "name": "【容声】可制冰/516L智感双净Max冰箱/法式多门/大容量/超薄平嵌冰箱/家用/变频/一级能效冰箱/政府补贴【BCD-516P60FZBAW】",
+    "model": "RZ.冰箱.BCD-516P60FZBAW-LD51.素月印",
+    "price": 9499.0,
+    "image": "https://img.shop.hisense.com/2025/09/16/8cf4d551-9667-49c2-9a60-24f759996d90.jpg"
+  },
+  {
+    "id": 6374,
+    "name": "海信【KFR-50GW/G860E-X1】2匹挂机/一级能效/变频/智能双清洁",
+    "model": "KFR-50GW/G860E-X1(1X33)",
+    "price": 7599.0,
+    "image": "https://img.shop.hisense.com/2025/07/02/b99a8bb4-49d3-40f5-aca4-3326c47ed3f1.png"
+  },
+  {
+    "id": 6288,
+    "name": "价保双11 海信小榴莲【BCD-500V5CZKQD】海信500V5Pro真空零嵌入式冰箱四开门一级能效风冷无霜冰箱",
+    "model": "U.冰箱.BCD-500V5CZKQD-KH51.钢板.月影灰431号",
+    "price": 2200.0,
+    "image": "https://img.shop.hisense.com/2026/05/07/52be1cc5-59d6-42db-8708-d19c0a8769a0.png"
+  },
+  {
+    "id": 6324,
+    "name": "【海信】505U6真空头等舱/纯平全嵌/法式四门冰箱/一级能效/国家补贴【TR-505U6FZGQA】",
+    "model": "HZ.冰箱.TR-505U6FZGQA-JX51.星瑜",
+    "price": 11999.0,
+    "image": "https://img.shop.hisense.com/2026/01/16/c0a5812d-7503-4fe0-b3ea-9ff75204ea9a.jpg"
+  },
+  {
+    "id": 6325,
+    "name": "Hisense电视/85A6Q/超画质U+Mini LED/97% DCI-P3电影级色域",
+    "model": "85A6Q",
+    "price": 8499.0,
+    "image": "https://xtw.hisense.com/xtwprd-bt1/productImages/1100101/17838477167/src/17838477167_10.jpg"
+  },
+  {
+    "id": 6332,
+    "name": "海信536S2【BCD-536S2SNKQO】261L大冷冻空间/PDM+抗菌净味保鲜/双雷达感温精准控温/360°矢量变频静音节能",
+    "model": "HZ.冰箱.BCD-536S2SNKQO-TS51.星辰",
+    "price": 2999.0,
+    "image": "https://img.shop.hisense.com/2026/01/16/57f67bbc-a288-473d-8c13-4217efd0e27d.jpg"
+  },
+  {
+    "id": 6017,
+    "name": "【75D3KH】75英寸/120Hz疾速刷新/U画质引擎/莱茵低蓝光认证/DTS V-X音效",
+    "model": "75D3KH",
+    "price": 3999.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/9d19091b-57e7-4156-afdc-d8288fbd1c1a.jpg"
+  },
+  {
+    "id": 6018,
+    "name": "海信【65A57N】65英寸/传承前出音/5大定制超薄扬声器/160分区Mini LED/264Hz疾速高刷/4GB+128GB/8mm壁挂",
+    "model": "65A57N",
+    "price": 6999.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/b1268947-afef-4476-b379-0d36688654b2.jpg"
+  },
+  {
+    "id": 6019,
+    "name": "【75A55NH】75英寸/240Hz疾速刷新/U+超画质引擎Pro/感控环境光/四核A73架构/4GB+64GB",
+    "model": "75A55NH",
+    "price": 7699.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/26cea240-237e-45bf-ab33-bd6aa57d1458.jpg"
+  },
+  {
+    "id": 5863,
+    "name": "科龙【KFR-35GW/LH1U-X1】1.5匹/新一级变频/16分贝静音/睡眠空调",
+    "model": "KFR-35GW/LH1U-X1(1X13)",
+    "price": 2599.0,
+    "image": "https://img.shop.hisense.com/2024/11/20/b6efa026-5c92-4a1d-ac73-78cbd217a870.jpg"
+  },
+  {
+    "id": 5877,
+    "name": "海信【WD100I3-2】洗净比1.25/活水洗3.0/直驱超薄全嵌",
+    "model": "HZ.洗衣机.WD100I3-2.远峰蓝",
+    "price": 5499.0,
+    "image": "https://img.shop.hisense.com/2024/09/25/7a3d238c-d53f-449d-b5d4-c0e576a89318.jpg"
+  },
+  {
+    "id": 5862,
+    "name": "科龙【KFR-26GW/LH1U-X1】大1匹/新一级变频/16分贝静音/睡眠空调",
+    "model": "KFR-26GW/LH1U-X1(1V62)",
+    "price": 2399.0,
+    "image": "https://img.shop.hisense.com/2024/09/18/59f7cd78-4f31-4a6f-b4a6-62448514ce5e.png"
+  },
+  {
+    "id": 6455,
+    "name": "Hisense电视/85U7S-PRO/RGB三原色背光/信芯®AI画质芯片 H7",
+    "model": "85U7S-PRO",
+    "price": 20999.0,
+    "image": "https:https://xtw.hisense.com/xtwprd-bt1/productImages/1100101/17839253541/src/17839253541_5.jpg"
+  },
+  {
+    "id": 6437,
+    "name": "星光S1 Pro 2026款 80英寸 IMAX同源放映机 行业唯一0有害蓝光 反射成像 菲涅尔无源抗光屏 110%BT.2020超广色域 2.1.2声道 哈曼卡顿音响80L7Q-Ultra【XX】",
+    "model": "80L7Q-Ultra",
+    "price": 11999.0,
+    "image": "https://img.shop.hisense.com/2025/08/14/244ceda8-9cdd-4cf3-bee2-a508ed81c2ab.jpg"
+  },
+  {
+    "id": 6467,
+    "name": "Hisense探索X1电视/92L9Q-RB栗茶咖/IMAX同源放映机/110%BT.2020超广色域",
+    "model": "92L9Q-RB栗茶咖",
+    "price": 21999.0,
+    "image": "https://xtw.hisense.com/xtwprd-bt1/productImages/1100106/17838641881/src/17838641881_11.jpg"
+  },
+  {
+    "id": 6473,
+    "name": "海信激光电视 星光S1 纯享版新品 120英寸 大屏护眼 家庭影院 帝瓦雷 120L7Q 国家补贴全国补 116-120",
+    "model": "120L7Q",
+    "price": 31999.0,
+    "image": "https://img.shop.hisense.com/2025/09/11/8c6bd381-ad5e-4e1f-b182-f5fbd8006565.jpg"
+  },
+  {
+    "id": 6474,
+    "name": "海信激光电视 星光S1 纯享版新品 100英寸 大屏护眼 家庭影院 100L7Q 国家补贴全国补 98 L6NS升级款",
+    "model": "100L7Q",
+    "price": 13999.0,
+    "image": "https://img.shop.hisense.com/2025/09/11/dc33d4eb-45f2-4979-890e-82214035de07.jpg"
+  },
+  {
+    "id": 6489,
+    "name": "海信贴贴壁画电视A7Q 85吋  2.99cm一体化纤薄 艺术画框随心换 屏幕纯黑无倒影 名画沉浸享",
+    "model": "85A7Q",
+    "price": 14999.0,
+    "image": "https://img.shop.hisense.com/2025/09/30/16b882f2-20b1-4725-8e85-7e21efbd0dd3.jpg"
+  },
+  {
+    "id": 6567,
+    "name": "【家庭装】450ml*2+1100m+2400ml海信真空魔方盒二代真空保鲜盒透明超薄真空冰箱真空罐",
+    "model": "U.真空保鲜罐.VJ-8.",
+    "price": 399.0,
+    "image": "https://img.shop.hisense.com/2025/10/27/e42a4bf4-af54-4349-9418-c0234c113d3d.jpg"
+  },
+  {
+    "id": 6569,
+    "name": "【海信】波光银271L三开门变频冰箱一级能效【BCD-271S2RNGQA】",
+    "model": "HZ.冰箱.BCD-271S2RGAQ-JA51.波光银",
+    "price": 3199.0,
+    "image": "https://img.shop.hisense.com/2026/01/16/2ca1ba84-d508-4137-8bd2-2f4285c06be6.jpg"
+  },
+  {
+    "id": 6574,
+    "name": "CXW-300-SU5烟机",
+    "model": "CXW-300-SU5",
+    "price": 3499.0,
+    "image": "https://img.shop.hisense.com/2025/10/29/1296ebf2-047e-4547-aaed-70d91d5b5a4f.jpg"
+  },
+  {
+    "id": 6603,
+    "name": "P70",
+    "model": "P70",
+    "price": 159999.0,
+    "image": "https://img.shop.hisense.com/2025/11/06/52a7e672-94a2-4cdf-8afa-584074036b70.jpg"
+  },
+  {
+    "id": 6604,
+    "name": "P70  PRO",
+    "model": "P70-PRO",
+    "price": 179999.0,
+    "image": "https://img.shop.hisense.com/2025/11/06/949ec29c-a320-412d-b39c-cb3352976eca.jpg"
+  },
+  {
+    "id": 6609,
+    "name": "海信【WH130U9Q】宙斯集成式热泵烘干系统/纯平灵动 科技简约/离子活水洗",
+    "model": "HZ.洗衣机.WH130U9Q.曜石灰",
+    "price": 9299.0,
+    "image": "https://img.shop.hisense.com/2025/11/07/5804238b-116a-40a8-a168-4e17155baf23.jpg"
+  },
+  {
+    "id": 6700,
+    "name": "海信【BCD-422V5BQGQA】真空保鲜/-31℃极冻冰鲜/自由拼接大容量冰箱-铂雅灰",
+    "model": "U.冰箱.BCD-422V5BQGQA-LJ51.玻璃.铂雅灰G482",
+    "price": 5299.0,
+    "image": "https://img.shop.hisense.com/2026/01/06/70106da8-2ebb-432c-b44f-a996ffdd5e35.jpg"
+  }
+]

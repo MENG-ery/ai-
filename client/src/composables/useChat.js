@@ -4,6 +4,7 @@
  * 在 View 组件中直接使用，保持组件简洁
  */
 import { ref, nextTick } from 'vue';
+import { useModel } from './useModel.js';
 
 const API_BASE = 'http://localhost:3000/api';
 
@@ -15,6 +16,8 @@ export function useChat() {
   const streaming = ref(false);   // 是否正在流式输出
   const streamText = ref('');     // 当前流式输出的文本片段
   const error = ref('');          // 错误信息
+
+  const { requestModel } = useModel();
 
   // ─── 发送消息（流式）───────────────────────────────────────────
   const sendMessage = async (userInput, scrollCallback) => {
@@ -36,7 +39,7 @@ export function useChat() {
       const response = await fetch(`${API_BASE}/chat/stream`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userInput, history }),
+        body: JSON.stringify({ message: userInput, history, model: requestModel() }),
       });
 
       if (!response.ok) throw new Error(`HTTP ${response.status}`);

@@ -5,12 +5,14 @@ from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel
 
 from app.chains.rag_chain import rag_chain_with_sources
+from app.models.deepseek import MODEL_NAME
 
 router = APIRouter()
 
 
 class RagRequest(BaseModel):
     question: str
+    model: dict | None = None
 
 
 def _send(event_type, data):
@@ -24,7 +26,9 @@ async def rag_query(req: RagRequest):
 
     async def event_generator():
         try:
-            result = rag_chain_with_sources.invoke({"question": req.question})
+            result = rag_chain_with_sources.invoke(
+                {"question": req.question, "model": req.model}
+            )
 
             if result.get("sources"):
                 yield _send("sources", {"sources": result["sources"]})

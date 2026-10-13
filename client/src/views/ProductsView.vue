@@ -1,27 +1,17 @@
-<!-- client/src/views/ProductsView.vue（个人及家庭产品：海信全品类智能家电） -->
+<!-- client/src/views/ProductsView.vue（产品中心：海信全品类智能家电） -->
 <template>
-  <div class="haier-page">
-    <!-- Hero 横幅（海报素材） -->
-    <div class="hero-banner">
-      <div class="hero-overlay"></div>
-      <div class="hero-inner">
-        <span class="hero-line"></span>
-        <h1>个人及家庭产品</h1>
-        <p class="hero-sub">海信全品类智能家电，为美好生活而来</p>
+  <div class="products-page">
+    <!-- 页头 -->
+    <div class="page-head">
+      <div class="page-head-inner">
+        <h1>产品中心</h1>
+        <p class="head-sub">海信全品类智能家电，为美好生活而来 · 点击产品卡片即可咨询智能客服</p>
       </div>
     </div>
 
-    <!-- 面包屑 -->
-    <div class="crumbs">
-      <router-link to="/">首页</router-link>
-      <span class="sep">&gt;</span>
-      <span class="cur">个人及家庭产品</span>
-    </div>
-
     <!-- 产品网格 -->
-    <div class="products-main">
+    <div class="products-main scroll-thin">
       <p class="section-title">全品类智能家电</p>
-      <p class="section-sub">点击产品卡片，即可咨询智能客服获取推荐</p>
       <div class="product-grid">
         <div
           v-for="p in products"
@@ -29,10 +19,7 @@
           class="product-card"
           @click="consult(p.label)"
         >
-          <div
-            class="product-img"
-            :style="{ backgroundImage: `url(${p.img})` }"
-          ></div>
+          <div class="product-img" :style="{ backgroundImage: `url(${p.img})` }"></div>
           <div class="product-info">
             <p class="product-name">{{ p.label }}</p>
             <p class="product-desc">{{ p.desc }}</p>
@@ -66,158 +53,108 @@ const products = [
 
 const consult = (label) => {
   router.push({
-    path: '/',
-    query: { ask: `我想了解一下${label}，可以帮我推荐一下吗？` },
+    path: '/chat',
+    query: { q: `我想了解一下${label}，可以帮我推荐一下吗？` },
   });
 };
 </script>
 
 <style scoped>
-.haier-page {
+.products-page {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  min-height: 0;
+  overflow: hidden;
 }
 
-.hero-banner {
-  position: relative;
-  width: 100%;
-  padding: 104px 0 92px;
+/* 页头 */
+.page-head {
   flex-shrink: 0;
-  overflow: hidden;
-  background: url('/haier/haibao1.webp') center / cover no-repeat;
-  background-color: #0c5ca8;
+  background: linear-gradient(120deg, rgba(47, 107, 255, 0.08), rgba(91, 140, 255, 0.06));
+  border-bottom: 1px solid var(--haier-border);
 }
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(12, 92, 168, 0.5);
-}
-.hero-inner {
-  position: relative;
-  z-index: 2;
+.page-head-inner {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 34px 24px;
   text-align: center;
 }
-.hero-line {
-  display: block;
-  width: 44px;
-  height: 6px;
-  margin: 0 auto 18px;
-  background: #fff;
-  border-radius: 3px;
-}
-.hero-inner h1 {
-  font-size: 34px;
+.page-head h1 {
+  font-size: 24px;
   font-weight: 700;
-  color: #fff;
-  letter-spacing: 4px;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-.hero-sub {
-  margin-top: 12px;
-  font-size: 16px;
-  color: #eaf2fc;
+  color: var(--haier-text);
   letter-spacing: 2px;
 }
-
-.crumbs {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  height: 44px;
-  padding: 0 40px;
-  background: #fff;
-  border-bottom: 1px solid var(--haier-border);
+.head-sub {
+  margin-top: 10px;
   font-size: 13px;
   color: var(--haier-text-sub);
-  flex-shrink: 0;
 }
-.crumbs a { color: var(--haier-text-sub); text-decoration: none; }
-.crumbs a:hover { color: var(--haier-primary); }
-.crumbs .sep { color: var(--haier-text-faint); }
-.crumbs .cur { color: var(--haier-primary); }
 
+/* 产品网格 */
 .products-main {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 28px 16px 48px;
+  padding: 24px 16px 48px;
 }
 .section-title {
-  position: relative;
-  padding: 12px 0 8px;
-  font-size: 22px;
+  margin-bottom: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--haier-text);
-  text-align: center;
   letter-spacing: 2px;
-}
-.section-title::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 34px;
-  height: 5px;
-  background: var(--haier-primary);
-  border-radius: 2px;
-}
-.section-sub {
-  margin-bottom: 24px;
-  font-size: 13px;
-  color: var(--haier-text-weak);
-  text-align: center;
 }
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 18px;
 }
 .product-card {
   background: #fff;
   border: 1px solid var(--haier-border);
-  border-radius: 10px;
+  border-radius: var(--haier-radius);
   overflow: hidden;
   cursor: pointer;
-  transition: box-shadow .25s, transform .25s;
+  transition: box-shadow .25s, transform .25s, border-color .25s;
 }
 .product-card:hover {
   box-shadow: var(--haier-shadow-hover);
   transform: translateY(-4px);
+  border-color: var(--haier-primary);
 }
 .product-img {
-  height: 240px;
+  height: 220px;
   background-size: cover;
   background-position: center;
-  background-color: #eef2f7;
+  background-color: var(--haier-bg);
 }
-.product-info {
-  padding: 16px 18px 18px;
-}
-.product-name {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--haier-text);
-}
+.product-info { padding: 16px 18px 18px; }
+.product-name { font-size: 16px; font-weight: 700; color: var(--haier-text); }
 .product-desc {
   margin-top: 8px;
   font-size: 13px;
-  color: var(--haier-text-weak);
+  color: var(--haier-text-sub);
   line-height: 1.6;
 }
 .product-cta {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 12px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: var(--haier-primary-tint);
+  color: var(--haier-primary);
   font-size: 13px;
   font-weight: 600;
-  color: var(--haier-primary);
+  transition: background .2s, color .2s;
+}
+.product-card:hover .product-cta {
+  background: var(--haier-primary);
+  color: #fff;
 }
 </style>
